@@ -1,0 +1,112 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Web
+build_property.RootNamespace = Web
+build_property.ProjectDir = C:\Users\tursl\OneDrive\Desktop\CODEACADEMY\BackEndZooY\ZooY_Project\ZooY\Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\tursl\OneDrive\Desktop\CODEACADEMY\BackEndZooY\ZooY_Project\ZooY\Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Find/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmluZFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Find/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmluZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Find/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmluZFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/HomeMainSlider/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZU1haW5TbGlkZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/HomeMainSlider/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZU1haW5TbGlkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/HomeMainSlider/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZU1haW5TbGlkZXJcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/HotDeal/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG90RGVhbFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/HotDeal/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG90RGVhbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/HotDeal/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG90RGVhbFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Views/Shop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-lzldzk1rll

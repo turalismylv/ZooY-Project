@@ -1,0 +1,52 @@
+﻿@using Web.Areas.Admin.ViewModels.Find
+@model FindIndexVM
+
+
+@if (Model.Find == null)
+{
+    <a class="btn btn-primary" asp-action="create" asp-controller="find">Create</a>
+}
+<div class="table-responsive">
+    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>CreateAt</th>
+                <th>ModifiedAt</th>
+                <th>Photo</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>CreateAt</th>
+                <th>ModifiedAt</th>
+                <th>Photo</th>
+                <th>Actions</th>
+            </tr>
+        </tfoot>
+      <tbody>
+              @if (Model.Find != null)
+            {
+                <tr>
+                    <td>@Model.Find.Id</td>
+                <td>@Model.Find.Title</td>
+                <td>@Model.Find.CreatedAt.ToShortDateString()</td>
+                <td>@Model.Find.ModifiedAt.ToShortDateString()</td>
+                <td><img class="img-thumbnail" style="width:50px ; height:50px; object-fit:cover" src="~/assets/img/@Model.Find.PhotoName" /></td>
+
+                <td>
+                    <a class="btn btn-primary" asp-action="update" asp-controller="find" asp-route-id="@Model.Find.Id">Update</a>
+                    <form method="post" asp-action="delete" asp-controller="find" asp-route-id="@Model.Find.Id">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+
+            }
+    </tbody>
+    </table>
+</div>

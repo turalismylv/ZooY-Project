@@ -1,0 +1,57 @@
+﻿@using Web.Areas.Admin.ViewModels.HotDeal
+@model HotDealIndexVM
+
+
+@if (Model.HotDeal == null)
+{
+    <a class="btn btn-primary" asp-action="create" asp-controller="hotdeal">Create</a>
+}
+<div class="table-responsive">
+    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Text</th>
+                <th>Time</th>
+                <th>CreateAt</th>
+                <th>ModifiedAt</th>
+                <th>Photo</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Text</th>
+                <th>Time</th>
+                <th>CreateAt</th>
+                <th>ModifiedAt</th>
+                <th>Photo</th>
+                <th>Actions</th>
+            </tr>
+        </tfoot>
+      <tbody>
+              @if (Model.HotDeal != null)
+            {
+                <tr>
+                    <td>@Model.HotDeal.Id</td>
+                <td>@Model.HotDeal.Title</td>
+                <td>@Model.HotDeal.Text</td>
+                <td>@Model.HotDeal.Time</td>
+                <td>@Model.HotDeal.CreatedAt.ToShortDateString()</td>
+                <td>@Model.HotDeal.ModifiedAt.ToShortDateString()</td>
+                <td><img class="img-thumbnail" style="width:50px ; height:50px; object-fit:cover" src="~/assets/img/@Model.HotDeal.PhotoName" /></td>
+                <td>
+                    <a class="btn btn-primary" asp-action="update" asp-controller="find" asp-route-id="@Model.HotDeal.Id">Update</a>
+                    <form method="post" asp-action="delete" asp-controller="find" asp-route-id="@Model.HotDeal.Id">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+
+            }
+    </tbody>
+    </table>
+</div>

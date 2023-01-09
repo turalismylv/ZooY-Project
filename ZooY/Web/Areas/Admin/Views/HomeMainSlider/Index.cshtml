@@ -1,0 +1,62 @@
+﻿@using Web.Areas.Admin.ViewModels.HomeMainSlider
+@model HomeMainSliderIndexVM
+
+<a class="btn btn-primary" asp-action="create" asp-controller="homemainslider">Create</a>
+
+
+
+
+
+<div class="table-responsive">
+    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>SubDescription</th>
+                <th>LearnUrl</th>
+                <th>CreateAt</th>
+                <th>ModifiedAt</th>
+                <th>Photo</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>SubDescription</th>
+                <th>LearnUrl</th>
+                <th>CreateAt</th>
+                <th>ModifiedAt</th>
+                <th>Photo</th>
+                <th>Actions</th>
+            </tr>
+        </tfoot>
+      <tbody>
+        @foreach (var homeMainSlider in Model.HomeMainSliders)
+        {
+            <tr>
+                <td>@homeMainSlider.Id</td>
+                <td>@homeMainSlider.Title</td>
+                <td>@Html.Raw(homeMainSlider.Description)</td>
+                <td>@homeMainSlider.SubDescription</td>
+                <td>@homeMainSlider.LearnUrl</td>
+                <td>@homeMainSlider.CreatedAt.ToShortDateString()</td>
+                <td>@homeMainSlider.ModifiedAt.ToShortDateString()</td>
+                <td><img class="img-thumbnail" style="width:50px ; height:50px; object-fit:cover" src="~/assets/img/@homeMainSlider.PhotoName" /></td>
+
+                <td>
+                    <a class="btn btn-primary" asp-action="update" asp-controller="homemainslider" asp-route-id="@homeMainSlider.Id">Update</a>
+                    <form method="post" asp-action="delete" asp-controller="homemainslider" asp-route-id="@homeMainSlider.Id">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+    </table>
+</div>

@@ -1,0 +1,66 @@
+﻿@using Web.ViewModels.Account
+@model AccountLoginVM
+
+
+@{
+    
+    var returnUrl = Context.Request.Query["returnUrl"];
+}
+
+
+
+
+
+
+
+<section data-aos="fade-up" style="background-image: url(https://www.ncodetechnologies.com/zooy/images/background-bg-1600x156.jpg);" class="first-sec dealofday intro aos-init aos-animate">
+    <div data-aos="fade-right" class="divday">
+        <p class="p-intro">HOME<i class="bi bi-chevron-right"></i><span class="span-intro">LOGIN</span></p>
+        <h4 class="h4-intro">LOGIN</h4>
+    </div>
+</section>
+
+<section class="login-sec">
+    <div class="login-div">
+        <div>
+            <div class="login-left">
+                <h2 class="login-h2">New Customer</h2>
+                <p class="login-p">Register Account</p>
+                <p class="login-p2">By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.</p>
+                <a class="btn btn1 btn-login" asp-action="register" asp-controller="account"><span>Create Now</span><i class="icon-next"></i></a>
+            </div>
+        </div>
+
+        <div class="login-right">
+            <div class="form-heading">
+                <h2 class="form-tit">Returning Customer</h2>
+                <p class="form-tit2">I am a returning customer</p>
+            </div>
+             <form class="login-form" method="post" asp-action="login" asp-controller="account">
+            <div class="row">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input asp-for="ReturnUrl" type="hidden" value="@returnUrl" />
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label style="display:none" asp-for="Username"></label>
+                            <input asp-for="Username" class="form-control-1" placeholder="Username *">
+                            <span asp-validation-for="Username"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                             <label  style="display:none" asp-for="Password"></label>
+                            <input  asp-for="Password" type="password" class="form-control-2" placeholder="Password *" >
+                              <span asp-validation-for="Password"></span>
+                        </div>
+                    </div>
+                          
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn submit-btn">Sign In</button>
+            </div>
+            </form>
+        </div>
+    </div>
+
+</section>

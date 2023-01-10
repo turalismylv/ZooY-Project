@@ -1,0 +1,53 @@
+﻿@using Web.Areas.Admin.ViewModels.ProductCategory
+@model ProductCategoryIndexVM
+
+<a class="btn btn-primary" asp-action="create" asp-controller="productcategory">Create</a>
+
+
+
+
+
+<div class="table-responsive">
+    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>CreateAt</th>
+                <th>ModifiedAt</th>
+                <th>Photo</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>CreateAt</th>
+                <th>ModifiedAt</th>
+                <th>Photo</th>
+                <th>Actions</th>
+            </tr>
+        </tfoot>
+      <tbody>
+        @foreach (var productCategory in Model.ProductCategories)
+        {
+            <tr>
+                <td>@productCategory.Id</td>
+                <td>@productCategory.Title</td>
+                <td>@productCategory.CreatedAt.ToShortDateString()</td>
+                <td>@productCategory.ModifiedAt.ToShortDateString()</td>
+                <td><img class="img-thumbnail" style="width:50px ; height:50px; object-fit:cover" src="~/assets/img/@productCategory.PhotoName" /></td>
+
+                <td>
+                    <a class="btn btn-primary" asp-action="update" asp-controller="productcategory" asp-route-id="@productCategory.Id">Update</a>
+                    <form method="post" asp-action="delete" asp-controller="productcategory" asp-route-id="@productCategory.Id">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+    </table>
+</div>

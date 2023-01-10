@@ -41,6 +41,11 @@ builder.Services.AddIdentity<User, IdentityRole>(options =>
 builder.Services.AddScoped<IHomeMainSliderRepository, HomeMainSliderRepository>();
 builder.Services.AddScoped<IFindRepsitory, FindRepository>();
 builder.Services.AddScoped<IHotDealRepository, HotDealRepository>();
+builder.Services.AddScoped<IBrandRepository, BrandRepository>();
+builder.Services.AddScoped<IProductCategoryRepository, ProductCategoryRepository>();
+builder.Services.AddScoped<IWelcomeRepository, WelcomeRepository>();
+builder.Services.AddScoped<IOurHistoryRepository, OurHistoryRepository>();
+builder.Services.AddScoped<ITestimonialRepository, TestimonialRepository>();
 
 
 #endregion
@@ -49,10 +54,16 @@ builder.Services.AddScoped<IHotDealRepository, HotDealRepository>();
 
 builder.Services.AddScoped<IHomeService, HomeService>();
 builder.Services.AddScoped<IAccountService, AccountService>();
+builder.Services.AddScoped<IAboutService, AboutService>();
 builder.Services.AddScoped<AdminAbstractService.IAccountService, AdminConcreteService.AccountService>();
 builder.Services.AddScoped<AdminAbstractService.IHomeMainSliderService, AdminConcreteService.HomeMainSliderService>();
 builder.Services.AddScoped<AdminAbstractService.IFindService, AdminConcreteService.FindService>();
 builder.Services.AddScoped<AdminAbstractService.IHotDealService, AdminConcreteService.HotDealService>();
+builder.Services.AddScoped<AdminAbstractService.IBrandService, AdminConcreteService.BrandService>();
+builder.Services.AddScoped<AdminAbstractService.IProductCategoryService, AdminConcreteService.ProductCategoryService>();
+builder.Services.AddScoped<AdminAbstractService.IWelcomeService, AdminConcreteService.WelcomeService>();
+builder.Services.AddScoped<AdminAbstractService.IOurHistoryService, AdminConcreteService.OurHistoryService>();
+builder.Services.AddScoped<AdminAbstractService.ITestimonialService, AdminConcreteService.TestimonialService>();
 
 
 

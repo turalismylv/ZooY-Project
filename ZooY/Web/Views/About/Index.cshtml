@@ -1,218 +1,140 @@
-﻿<section data-aos="fade-up" style="background-image: url(https://www.ncodetechnologies.com/zooy/images/background-bg-1600x156.jpg);" class="first-sec dealofday intro aos-init aos-animate">
-  <div data-aos="fade-right" class="divday">
-    <p class="p-intro">HOME<i class="bi bi-chevron-right"></i><span class="span-intro">ABOUT</span></p>
-    <h4 class="h4-intro">ABOUT US</h4>
-  </div>
+﻿@using System.Web
+@using Web.ViewModels.About
+@model AboutIndexVM
+
+
+<section data-aos="fade-up" style="background-image: url(https://www.ncodetechnologies.com/zooy/images/background-bg-1600x156.jpg);" class="first-sec dealofday intro aos-init aos-animate">
+    <div data-aos="fade-right" class="divday">
+        <p class="p-intro">HOME<i class="bi bi-chevron-right"></i><span class="span-intro">ABOUT</span></p>
+        <h4 class="h4-intro">ABOUT US</h4>
+    </div>
 </section>
 
-<section data-aos="fade-in" class="welcome">
-    <div data-aos="fade-right" class="welcome-div">
-        <h2 class="welcome-h2">WELCOME TO ZO<span class="o">O</span>Y</h2>
-        <p class="welcome-p1">Shopping the way you like it!</p>
-        <p class="welcome-p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-        <div class="welcome-div2">
-            <div><img   src="https://www.ncodetechnologies.com/zooy/images/signature.png" alt=""></div>
-            <div class="welcome-info2">
-                <p class="ceo">Co.Founder</p>
-                <p class="ceo-name">Joviar Karlo</p>
-               
+
+@if (Model.Welcome != null)
+{
+    <section data-aos="fade-in" class="welcome">
+        <div data-aos="fade-right" class="welcome-div">
+            <h2 class="welcome-h2">@Html.Raw(Model.Welcome.Title)</h2>
+            <p class="welcome-p1">@Model.Welcome.Text</p>
+            <p class="welcome-p2">@Model.Welcome.Description</p>
+            <div class="welcome-div2">
+                <div><img src="~/assets/img/@Model.Welcome.PhotoName" alt=""></div>
+                <div class="welcome-info2">
+                    <p class="ceo">Co.Founder</p>
+                    <p class="ceo-name">@Model.Welcome.FullName</p>
+
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section  class="our-history">
-    <div class="our-history-div">
-        <div data-aos="fade-in"><img class="welcome-img" src="https://www.ncodetechnologies.com/zooy/images/about-img1-602x429.png" alt=""></div>
-        <div data-aos="fade-in">
-            <p class="our-p1">OUR HISTORY</p>
-            <h2 class="our-h2">INNOVATIVE SOLUTION OF AUTO PARTS</h2>
-            <p class="our-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia qui officiis quia. Cupiditate, voluptates porro vitae autem et nobis, sequi molestias cum, hic explicabo accusantium impedit? Laudantium labore recusandae tempore.</p>
-            <button class="our-btn">Shop Now</button>
+}
+
+
+@if (Model.OurHistory != null)
+{
+    <section class="our-history">
+        <div class="our-history-div">
+            <div data-aos="fade-in"><img class="welcome-img" src="~/assets/img/@Model.OurHistory.PhotoName" alt=""></div>
+            <div data-aos="fade-in">
+                <p class="our-p1">@Model.OurHistory.SubTitle</p>
+                <h2 class="our-h2">@Model.OurHistory.Title</h2>
+                <p class="our-p">@Model.OurHistory.Description</p>
+                <a class="btn common-btn btnday" asp-action="index" asp-controller="shop" style="background-color: #fcb818" tabindex="0"><span>Shop Now</span><i class="icon-next"></i></a>
+
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+
+
+}
+
+
 
 <!-- slider -->
 
 <section data-aos="zoom-in">
-  <!-- Testimonial Carousel -->
-  <div class="testimonial-reel">
+    <!-- Testimonial Carousel -->
+    <div class="testimonial-reel">
 
 
-    <!-- Testimonial -->
-    <div>
+        <!-- Testimonial -->
+        @foreach (var testimonial in Model.Testimonials)
+        {
+            <div>
 
-        <div class="box">
+                <div class="box">
 
-            <!-- Testimonial Image -->
-            <figure class="image">
-                <img class="img-fluid rounded-circle" src="https://www.ncodetechnologies.com/zooy/images/karla-noik-115x115.jpg">
-            </figure>
-            <!-- / Testimonial Image -->
+                    <!-- Testimonial Image -->
+                    <figure class="image">
+                        <img class="img-fluid rounded-circle"s style=" width:115px; object-fit:cover" src="~/assets/img/@testimonial.PhotoName">
+                    </figure>
+                    <!-- / Testimonial Image -->
 
-            <div class="test-component">
-                <!-- Title -->
-                <article class="test-title">
+                    <div class="test-component">
+                        <!-- Title -->
+                        <article class="test-title">
 
-                    <h4>
-                      Jonhnmahu  Due
-                    </h4>
+                            <h4>
+                                @testimonial.FullName
+                            </h4>
 
-                </article>
-                <!-- / Title -->
+                        </article>
+                        <!-- / Title -->
 
-                <article class="test-content">
-                    <p>
-                      “Lorem ipsum dolor sit amet, consectetur addipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore mipisicing elit, sed do eiusmod temed do eiusmod tempor incididunt ut labore et dolore mipisicing elit,sed do eiusmod tepor incididunt ut labore et dolore magna aliqua ”
-                    </p>
-                </article>
+                        <article class="test-content">
+                            <p>
+                                @Html.Raw(testimonial.Description)
+                            </p>
+                        </article>
 
-            </div>
+                    </div>
 
-        </div>
-
-    </div>
-    <!-- / Testimonial -->
-
-    <!-- Testimonial -->
-    <div>
-
-        <div class="box">
-
-            <!-- Testimonial Image -->
-            <figure class="image">
-                <img class="img-fluid rounded-circle" src="https://www.ncodetechnologies.com/zooy/images/karla-noik-115x115.jpg">
-            </figure>
-            <!-- / Testimonial Image -->
-
-            <div class="test-component">
-                <!-- Title -->
-                <article class="test-title">
-
-                    <h4>
-                        Efecha Omoware
-                    </h4>
-
-                </article>
-                <!-- / Title -->
-
-                <article class="test-content">
-                    <p>
-                        I now enjoy financial freedom like I’ve never know before doing what I love.
-                    </p>
-                </article>
+                </div>
 
             </div>
+        }
 
-        </div>
 
-    </div>
-    <!-- / Testimonial -->
+        <!-- / Testimonial -->
 
-    <!-- Testimonial -->
-    <div>
 
-        <div class="box">
 
-            <!-- Testimonial Image -->
-            <figure class="image">
-                <img class="img-fluid rounded-circle" src="https://www.ncodetechnologies.com/zooy/images/karla-noik-115x115.jpg">
-            </figure>
-            <!-- / Testimonial Image -->
-
-            <div class="test-component">
-                <!-- Title -->
-                <article class="test-title">
-
-                    <h4>
-                        Efecha Omoware
-                    </h4>
-
-                </article>
-                <!-- / Title -->
-
-                <article class="test-content">
-                    <p>
-                        I now enjoy financial freedom like I’ve never know before doing what I love.
-                    </p>
-                </article>
-
-            </div>
-
-        </div>
 
     </div>
-    <!-- / Testimonial -->
-
-    <!-- Testimonial -->
-    <div>
-
-        <div class="box">
-
-            <!-- Testimonial Image -->
-            <figure class="image">
-                <img class="img-fluid rounded-circle" src="https://www.ncodetechnologies.com/zooy/images/karla-noik-115x115.jpg">
-            </figure>
-            <!-- / Testimonial Image -->
-
-            <div class="test-component">
-                <!-- Title -->
-                <article class="test-title">
-
-                    <h4>
-                        Efecha Omoware
-                    </h4>
-
-                </article>
-                <!-- / Title -->
-
-                <article class="test-content">
-                    <p>
-                        I now enjoy financial freedom like I’ve never know before doing what I love.
-                    </p>
-                </article>
-
-            </div>
-
-        </div>
-
-    </div>
-    <!-- / Testimonial -->
-
-</div>
-<!-- / Testimonial Carousel -->
+    <!-- / Testimonial Carousel -->
 </section>
 
 <section data-aos="fade-up" class="helplinesec helplineabout">
-  <div class="helpline">
-    <div class="helpline-div">
-      <div class="icon-help"><i class="bi bi-truck icon-last icon-last1"></i></div>
-      <div class="icon-text">
-        <h3 class="last-h3">Free Delivery</h3>
-        <p class="last-p">Worldwide from $75</p>
-      </div>
+    <div class="helpline">
+        <div class="helpline-div">
+            <div class="icon-help"><i class="bi bi-truck icon-last icon-last1"></i></div>
+            <div class="icon-text">
+                <h3 class="last-h3">Free Delivery</h3>
+                <p class="last-p">Worldwide from $75</p>
+            </div>
+        </div>
+        <div class="helpline-div">
+            <div class="icon-help"><i class="bi bi-arrow-clockwise icon-last icon-last1"></i></div>
+            <div class="icon-text">
+                <h3 class="last-h3">EASY RETURNS</h3>
+                <p>365 days for free</p>
+            </div>
+        </div>
+        <div class="helpline-div">
+            <div class="icon-help"><i class="bi bi-wallet2 icon-last icon-last1"></i></div>
+            <div class="icon-text">
+                <h3 class="last-h3">COMFORT PAYMENTS</h3>
+                <p class="last-p">Credit Cards Available</p>
+            </div>
+        </div>
+        <div class="helpline-div sondiv">
+            <div class="icon-help"><i class="bi bi-gift icon-last icon-last1"></i></div>
+            <div class="icon-text">
+                <h3 class="last-h3">FREE GIFTS</h3>
+                <p class="last-p">Get gifts and discounts</p>
+            </div>
+        </div>
     </div>
-    <div class="helpline-div">
-      <div class="icon-help"><i class="bi bi-arrow-clockwise icon-last icon-last1"></i></div>
-      <div class="icon-text">
-        <h3 class="last-h3">EASY RETURNS</h3>
-        <p>365 days for free</p>
-      </div>
-    </div>
-    <div class="helpline-div">
-      <div class="icon-help"><i class="bi bi-wallet2 icon-last icon-last1"></i></div>
-      <div class="icon-text">
-        <h3 class="last-h3">COMFORT PAYMENTS</h3>
-        <p class="last-p">Credit Cards Available</p>
-      </div>
-    </div>
-    <div class="helpline-div sondiv">
-      <div class="icon-help"><i class="bi bi-gift icon-last icon-last1"></i></div>
-      <div class="icon-text">
-        <h3 class="last-h3">FREE GIFTS</h3>
-        <p class="last-p">Get gifts and discounts</p>
-      </div>
-    </div>
-  </div>
 </section>

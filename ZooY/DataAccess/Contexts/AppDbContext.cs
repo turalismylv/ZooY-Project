@@ -20,6 +20,11 @@ namespace DataAccess.Contexts
         public DbSet<HomeMainSlider> HomeMainSliders { get; set; }
         public DbSet<Find> Find { get; set; }
         public DbSet<HotDeal> HotDeal { get; set; }
+        public DbSet<Brand> Brands { get; set; }
+        public DbSet<ProductCategory> ProductCategories { get; set; }
+        public DbSet<Testimonial> Testimonials { get; set; }
+        public DbSet<Welcome> Welcome { get; set; }
+        public DbSet<OurHistory> OurHistory { get; set; }
 
     }
 }

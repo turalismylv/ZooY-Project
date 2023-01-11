@@ -15,6 +15,7 @@ namespace Web.Services.Concrete
         private readonly IHotDealRepository _hotDealRepository;
         private readonly IBrandRepository _brandRepository;
         private readonly IProductCategoryRepository _productCategoryRepository;
+        private readonly IBlogRepository _blogRepository;
         private readonly ModelStateDictionary _modelState;
 
         public HomeService( IHomeMainSliderRepository homeMainSliderRepository,
@@ -22,6 +23,7 @@ namespace Web.Services.Concrete
             IHotDealRepository hotDealRepository,
             IBrandRepository brandRepository,
             IProductCategoryRepository productCategoryRepository,
+            IBlogRepository blogRepository,
             IActionContextAccessor actionContextAccessor)
         {
             _homeMainSliderRepository = homeMainSliderRepository;
@@ -29,6 +31,7 @@ namespace Web.Services.Concrete
             _hotDealRepository = hotDealRepository;
             _brandRepository = brandRepository;
             _productCategoryRepository = productCategoryRepository;
+            _blogRepository = blogRepository;
             _modelState = actionContextAccessor.ActionContext.ModelState;
         }
 
@@ -42,6 +45,7 @@ namespace Web.Services.Concrete
                 HotDeal=await _hotDealRepository.GetAsync(),
                 Brands=await _brandRepository.GetAllAsync(),
                 ProductCategories=await _productCategoryRepository.GetAllAsync(),
+                Blogs=await _blogRepository.GetOrderByAsync(),
             };
             return model;
 

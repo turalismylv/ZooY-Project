@@ -46,6 +46,7 @@ builder.Services.AddScoped<IProductCategoryRepository, ProductCategoryRepository
 builder.Services.AddScoped<IWelcomeRepository, WelcomeRepository>();
 builder.Services.AddScoped<IOurHistoryRepository, OurHistoryRepository>();
 builder.Services.AddScoped<ITestimonialRepository, TestimonialRepository>();
+builder.Services.AddScoped<IBlogRepository, BlogRepository>();
 
 
 #endregion
@@ -55,6 +56,7 @@ builder.Services.AddScoped<ITestimonialRepository, TestimonialRepository>();
 builder.Services.AddScoped<IHomeService, HomeService>();
 builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddScoped<IAboutService, AboutService>();
+builder.Services.AddScoped<IBlogService, BlogService>();
 builder.Services.AddScoped<AdminAbstractService.IAccountService, AdminConcreteService.AccountService>();
 builder.Services.AddScoped<AdminAbstractService.IHomeMainSliderService, AdminConcreteService.HomeMainSliderService>();
 builder.Services.AddScoped<AdminAbstractService.IFindService, AdminConcreteService.FindService>();
@@ -64,6 +66,7 @@ builder.Services.AddScoped<AdminAbstractService.IProductCategoryService, AdminCo
 builder.Services.AddScoped<AdminAbstractService.IWelcomeService, AdminConcreteService.WelcomeService>();
 builder.Services.AddScoped<AdminAbstractService.IOurHistoryService, AdminConcreteService.OurHistoryService>();
 builder.Services.AddScoped<AdminAbstractService.ITestimonialService, AdminConcreteService.TestimonialService>();
+builder.Services.AddScoped<AdminAbstractService.IBlogService, AdminConcreteService.BlogService>();
 
 
 

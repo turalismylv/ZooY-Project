@@ -25,6 +25,7 @@ namespace DataAccess.Contexts
         public DbSet<Testimonial> Testimonials { get; set; }
         public DbSet<Welcome> Welcome { get; set; }
         public DbSet<OurHistory> OurHistory { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
 
     }
 }

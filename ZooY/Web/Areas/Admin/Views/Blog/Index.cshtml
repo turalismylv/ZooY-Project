@@ -1,0 +1,57 @@
+﻿@using Web.Areas.Admin.ViewModels.Blog
+@model BlogIndexVM
+
+<a class="btn btn-primary" asp-action="create" asp-controller="blog">Create</a>
+
+
+
+
+
+<div class="table-responsive">
+    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>DetailTitle</th>
+                <th>CreateAt</th>
+                <th>ModifiedAt</th>
+                <th>Photo</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>DetailTitle</th>
+                <th>CreateAt</th>
+                <th>ModifiedAt</th>
+                <th>Photo</th>
+                <th>Actions</th>
+            </tr>
+        </tfoot>
+      <tbody>
+        @foreach (var blog in Model.Blog)
+        {
+            <tr>
+                <td>@blog.Id</td>
+                <td>@blog.Title</td>
+                <td>@blog.DetailTitle</td>
+                <td>@blog.CreatedAt.ToShortDateString()</td>
+                <td>@blog.ModifiedAt.ToShortDateString()</td>
+                <td><img class="img-thumbnail" style="width:50px ; height:50px; object-fit:cover" src="~/assets/img/@blog.PhotoName" /></td>
+
+                <td>
+                    <a class="btn btn-primary" asp-action="update" asp-controller="blog" asp-route-id="@blog.Id">Update</a>
+                    <a class="btn btn-info" asp-action="Details" asp-controller="blog" asp-route-id="@blog.Id">Details</a>
+                    <form method="post" asp-action="delete" asp-controller="blog" asp-route-id="@blog.Id">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+    </table>
+</div>

@@ -1,0 +1,58 @@
+﻿@using Web.Areas.Admin.ViewModels.ContactInfo
+@model ContactInfoIndexVM
+
+
+@if (Model.ContactInfo == null)
+{
+    <a class="btn btn-primary" asp-action="create" asp-controller="contactinfo">Create</a>
+}
+<div class="table-responsive">
+    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Website</th>
+                <th>CreateAt</th>
+                <th>ModifiedAt</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Id</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Website</th>
+                <th>CreateAt</th>
+                <th>ModifiedAt</th>
+                <th>Actions</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            @if (Model.ContactInfo != null)
+            {
+                <tr>
+                    <td>@Model.ContactInfo.Id</td>
+                    <td>@Model.ContactInfo.Address</td>
+                    <td>@Model.ContactInfo.Email</td>
+                    <td>@Model.ContactInfo.Phone</td>
+                    <td>@Model.ContactInfo.Website</td>
+                    <td>@Model.ContactInfo.CreatedAt.ToShortDateString()</td>
+                    <td>@Model.ContactInfo.ModifiedAt.ToShortDateString()</td>
+
+                    <td>
+                        <a class="btn btn-primary" asp-action="update" asp-controller="ContactInfo" asp-route-id="@Model.ContactInfo.Id">Update</a>
+                        <form method="post" asp-action="delete" asp-controller="ContactInfo" asp-route-id="@Model.ContactInfo.Id">
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+</div>

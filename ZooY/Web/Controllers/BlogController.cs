@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Web.Services.Abstract;
+using Web.ViewModels.Blog;
 
 namespace Web.Controllers
 {
@@ -17,9 +18,9 @@ namespace Web.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(BlogIndexVM model)
         {
-            var model = await _blogService.GetAllAsync();
+            model = await _blogService.GetAllAsync(model);
             return View(model);
         }
 

@@ -25,7 +25,7 @@
             <div data-aos="fade-up" class="p-category-div lastnew-div">
                 <div><img class="last-new-img" style="width: 400px; height: 287px;" src="~/assets/img/@blog.MainPhotoName" alt=""></div>
                 <div class="info-last">
-                    <div class="post-date">@blog.Time.ToString("dd.MM.yyyy")</div>
+text-decoration             <div class="post-date">@blog.Time.ToString("dd.MM.yyyy")</div>
                     <h4><a class="blog-tit" asp-action="details" asp-controller="blog" asp-route-id="@blog.Id">@blog.Title</a></h4>
                     <p class="blog-dis">@blog.Text</p>
                     <a asp-action="details" asp-controller="blog" asp-route-id="@blog.Id" class="rmore btn1">Read more <i class="icon-right-arrow"></i></a>
@@ -42,19 +42,39 @@
 
 
 <nav data-aos="fade-right" style="display: flex; justify-content: center; margin-bottom: 20px;" aria-label="Page navigation example">
-    <ul class="pagination">
+    <ul class="pagination" >
         <li class="page-item">
-            <a class="page-link" href="#" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-            </a>
+            @if (Model.Page > 1)
+            {
+                <div>
+                    @{
+                        var prevPage = @Model.Page - 1;
+
+                            <a itemprop="url" asp-action="index" asp-controller="blog" asp-route-page="@prevPage" class="page-link" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                    }
+                </div>
+            }
         </li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item">
-            <a class="page-link" href="#" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-            </a>
-        </li>
+
+        @for (int i = 1; i <= Model.PageCount; i++)
+        {
+            <li class="@(Model.Page==i ? "active disabled" : "inactive")"><a   asp-action="index" class="page-link " asp-controller="blog" asp-route-page="@i">@i</a></li>
+        }
+
+        @if (Model.PageCount != Model.Page)
+        {
+            <div>
+                @{
+                    var nextPage = @Model.Page + 1;
+                        <a itemprop="url" asp-action="index" asp-controller="blog"  asp-route-page="@nextPage" class="page-link" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                }
+            </div>
+        }
     </ul>
 </nav>

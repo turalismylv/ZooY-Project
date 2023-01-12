@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6u1rxE+YQQIThDfX0/2WHJ2KVMI4kivFGC2NWuk6ya8=",
+  "Hash": "K/7t0H0RmAWDEAWTKFgNO6qXD0/nalFoEPNQ85uP/TY=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -31263,6 +31263,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\01bf1d6b-bd5c-4b0d-9153-1e41e1a2615e_signature.png"
     },
     {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\038cdc2f-bb51-4690-8281-e100dc8f5eb8_blog-listing-img2-370x266.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/038cdc2f-bb51-4690-8281-e100dc8f5eb8_blog-listing-img2-370x266.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\038cdc2f-bb51-4690-8281-e100dc8f5eb8_blog-listing-img2-370x266.jpg"
+    },
+    {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\065e326d-d994-4139-9602-4e758b58a494_lighting.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
@@ -31278,6 +31295,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\065e326d-d994-4139-9602-4e758b58a494_lighting.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\12c7ffe1-5c39-41d4-a68d-6db03482181c_blog-listing-img3-370x266.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/12c7ffe1-5c39-41d4-a68d-6db03482181c_blog-listing-img3-370x266.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\12c7ffe1-5c39-41d4-a68d-6db03482181c_blog-listing-img3-370x266.jpg"
     },
     {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\22c3f0f5-f8ec-49a1-bdd1-b01c76c90d69_main slider.jpg",
@@ -31329,6 +31363,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\2b7442da-4357-4980-b3cd-5cdd18daac94_Turalcv.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\2eb152c2-ea95-4e49-aa43-ecc63f833f82_blog-img03-769x376.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/2eb152c2-ea95-4e49-aa43-ecc63f833f82_blog-img03-769x376.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\2eb152c2-ea95-4e49-aa43-ecc63f833f82_blog-img03-769x376.jpg"
     },
     {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\309045d9-4f9c-45f9-a122-40e6cddf4081_body-part.jpg",
@@ -31448,6 +31499,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\69978224-2a10-421d-bfbc-194bd2620cb6_WIN_20221014_23_05_34_Pro.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\6a9cf502-273f-49ca-97f6-e24b71534cb1_blog-detail-img2.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/6a9cf502-273f-49ca-97f6-e24b71534cb1_blog-detail-img2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\6a9cf502-273f-49ca-97f6-e24b71534cb1_blog-detail-img2.jpg"
     },
     {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\6f54b3f9-1c33-4454-bce7-9600fac662f5_about-img1-602x429.png",
@@ -31586,6 +31654,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\8cdfdfb8-72b3-4d5a-987c-2dc132fde7c6_wheels-tires.jpg"
     },
     {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\97057518-3714-4078-b913-c9fe2ab5400e_blog-listing-img1-389x343.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/97057518-3714-4078-b913-c9fe2ab5400e_blog-listing-img1-389x343.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\97057518-3714-4078-b913-c9fe2ab5400e_blog-listing-img1-389x343.jpg"
+    },
+    {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\9dc54f75-4c07-4bde-87be-11b1103d790c_lighting.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
@@ -31601,6 +31686,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\9dc54f75-4c07-4bde-87be-11b1103d790c_lighting.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\9eda94de-fd61-4211-8aae-80f00deeb9ad_blog-detail-img2.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/9eda94de-fd61-4211-8aae-80f00deeb9ad_blog-detail-img2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\9eda94de-fd61-4211-8aae-80f00deeb9ad_blog-detail-img2.jpg"
     },
     {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\9f7ba0bf-51d9-4881-a0c7-3e24cbf75511_main slider.jpg",
@@ -31635,6 +31737,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\a1b3be60-477d-446d-aea0-4868e8e8fa65_blog-listing-img3-370x266.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\b1bdd62f-d872-405f-87a0-7330ccb08f68_blog-listing-img1-389x343.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/b1bdd62f-d872-405f-87a0-7330ccb08f68_blog-listing-img1-389x343.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\b1bdd62f-d872-405f-87a0-7330ccb08f68_blog-listing-img1-389x343.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\bb8a7941-cdfb-46dd-b1b1-d1912411e7d6_blog-img02-769x376.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/bb8a7941-cdfb-46dd-b1b1-d1912411e7d6_blog-img02-769x376.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\bb8a7941-cdfb-46dd-b1b1-d1912411e7d6_blog-img02-769x376.jpg"
     },
     {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\bddec9f0-b07e-4b49-8035-5cccf798909d_Mirgubad.jpeg",

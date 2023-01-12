@@ -1,0 +1,84 @@
+﻿  <header>
+        <div  class="main">
+
+
+            <div class="tophead">
+                <div class="wrappertophead">
+                    <a class="mail sosials" href="" ><i style="margin-right: 5px;" class="bi bi-envelope foot-icon"></i><span class="mt">turalhi@code.edu.az</span></a>
+                    <a  class="tel sosials" href="#" ><i class="bi bi-telephone-fill foot-icon"></i><span class="mt">+994998596919</span></a>
+                </div>
+                <div class="sosial">
+
+                       @if (!User.Identity.IsAuthenticated)
+                        {
+                             <a class="sosials" asp-action="login" asp-controller="account" class="p-2 pl-0"><span class="login">LOG IN</span></a>
+                             <a class="sosials" asp-action="register" asp-controller="account" class="p-2 pl-0"><span class="login">SIGN UP</span></a>
+                        }
+                        else{
+                            <a class="sosials" class="p-2 pl-0"><span class="login">@User.Identity.Name.ToUpper()</span></a>
+                             <a class="sosials" asp-action="logout" asp-controller="account" class="p-2 pl-0"><span class="login">LOG OUT</span></a>
+                        }
+                    <a  class="sosials" href="#" ><i class="fa-brands fa-square-twitter"></i></a></a>
+                    <a  class="sosials" href="#" ><i class="fa-brands fa-square-facebook"></i></a>
+                    <a  class="sosials" href="#" ><i class="fa-brands fa-linkedin"></i></a>
+                    <a  class="sosials" href="#" ><i class="fa-brands fa-instagram"></i></a></a>
+
+
+                </div>
+            </div>
+          
+            <div class="menu-wrap">
+              <input type="checkbox" class="toggler">
+              <div class="hamburger"><div></div></div>
+              <div class="menu">
+                <div>
+                  <div>
+                    <ul>
+                      <li><a asp-controller="home" asp-action="index">Home</a></li>
+                      <li><a asp-controller="about" asp-action="index">About</a></li>
+                      <li><a asp-controller="shop" asp-action="index">Shop</a></li>
+                      <li><a asp-controller="blog" asp-action="index">Blog</a></li>
+                      <li><a asp-controller="contact" asp-action="index">Contact</a></li>
+                      
+                        @if (!User.Identity.IsAuthenticated)
+                        {
+                             <li><a asp-action="login" asp-controller="account">Login</a>/<a asp-action="register" asp-controller="account">Sign up</a></li>
+                        }else{
+                            <li>@User.Identity.Name / <a asp-action="logout" asp-controller="account">Logout</a> </li>
+                        }
+                        
+
+                      <li class="basket">
+                        <a class="basket-nav" href="#contact-section">
+                          <span><i class="fas fa-shopping-basket basket "></i></span>
+                        </a>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+            <div class="wrapper">
+                <nav class="nav">
+                    <div class="logo"><a asp-controller="home" asp-action="index"><img src="https://www.ncodetechnologies.com/zooy/images/logo.png" alt=""></a> </div>
+                    <div class="navdiv">
+                    <ul class="navul">
+                        <li class="navli"><a class="nava" asp-controller="home" asp-action="index">HOME</a></li>
+                        <li  class="navli"><a class="nava" asp-controller="about" asp-action="index">ABOUT</a></li>
+                        <li  class="navli"><a class="nava" asp-controller="shop" asp-action="index">SHOP</a></li>
+                        <li  class="navli"><a class="nava" asp-controller="blog" asp-action="index">BLOG</a></li>
+                        <li  class="navli"><a class="nava" asp-controller="contact" asp-action="index">CONTACT</a></li>
+                        <li class="basket">
+                            <a class="basket-nav" href="#contact-section">
+                              <span><i class="fas fa-shopping-basket basket "></i></span>
+                            </a>
+                          </li>
+                    </ul></div>
+                </nav>
+    
+            </div>
+        </div>
+
+    </header>

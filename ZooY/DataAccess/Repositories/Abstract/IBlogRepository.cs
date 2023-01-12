@@ -11,5 +11,10 @@ namespace DataAccess.Repositories.Abstract
     {
 
         Task<List<Blog>> GetOrderByAsync();
-    }
+
+        Task<List<Blog>> PaginateBlogsAsync(int page, int take);
+
+        Task<int> GetPageCountAsync(int take);
+        
+        }
 }

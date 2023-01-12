@@ -403,6 +403,7 @@
 }
 .helplinesec .sondiv {
   border: none;
+  padding-right:0;
 }
 
 footer {
@@ -1823,4 +1824,11 @@ header {
 
 .first-sec {
   padding-top: 200px;
+}
+
+
+.active > .page-link, .page-link.active {
+    
+    background-color: #fcb818;
+    z-index:0;
 }

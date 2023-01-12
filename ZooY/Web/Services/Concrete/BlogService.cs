@@ -22,11 +22,21 @@ namespace Web.Services.Concrete
         }
 
 
-        public async Task<BlogIndexVM> GetAllAsync()
+        public async Task<BlogIndexVM> GetAllAsync(BlogIndexVM model)
         {
-            var model = new BlogIndexVM
+
+            var pageCount = await _blogRepository.GetPageCountAsync(model.Take);
+
+            if (model.Page <= 0 ) return model;
+
+            var blogs = await _blogRepository.PaginateBlogsAsync(model.Page, model.Take);
+
+            model = new BlogIndexVM
             {
-                Blogs = await _blogRepository.GetAllAsync()
+                Blogs = blogs,
+                Page = model.Page,
+                PageCount = pageCount,
+                Take = model.Take
             };
             return model;
 

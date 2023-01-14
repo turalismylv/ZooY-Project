@@ -12,5 +12,6 @@ namespace Core.Entities
         public string Title { get; set; }
         public string PhotoName { get; set; }
 
+        public ICollection<Product> Products { get; set; }
     }
 }

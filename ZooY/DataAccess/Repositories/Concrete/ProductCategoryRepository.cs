@@ -20,15 +20,15 @@ namespace DataAccess.Repositories.Concrete
             _context = context;
         }
 
-        //public async Task<List<ProductCategory>> GetAllCategoryAsync()
-        //{
-        //    return await _context.ProductCategories.Include(p => p.Products).ToListAsync();
-        //}
+        public async Task<List<ProductCategory>> GetAllCategoryAsync()
+        {
+            return await _context.ProductCategories.Include(p => p.Products).ToListAsync();
+        }
 
-        //public async Task<ProductCategory> GetFirstAsync()
-        //{
-        //    return await _context.ProductCategories.FirstOrDefaultAsync();
-        //}
+        public async Task<ProductCategory> GetFirstAsync()
+        {
+            return await _context.ProductCategories.FirstOrDefaultAsync();
+        }
 
     }
 }

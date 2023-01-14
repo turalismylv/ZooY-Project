@@ -12,6 +12,7 @@ namespace Web.Services.Concrete
     {
         private readonly IHomeMainSliderRepository _homeMainSliderRepository;
         private readonly IFindRepsitory _findRepsitory;
+        private readonly IProductRepository _productRepository;
         private readonly IHotDealRepository _hotDealRepository;
         private readonly IBrandRepository _brandRepository;
         private readonly IProductCategoryRepository _productCategoryRepository;
@@ -20,6 +21,7 @@ namespace Web.Services.Concrete
 
         public HomeService( IHomeMainSliderRepository homeMainSliderRepository,
             IFindRepsitory findRepsitory,
+            IProductRepository productRepository,
             IHotDealRepository hotDealRepository,
             IBrandRepository brandRepository,
             IProductCategoryRepository productCategoryRepository,
@@ -28,6 +30,7 @@ namespace Web.Services.Concrete
         {
             _homeMainSliderRepository = homeMainSliderRepository;
             _findRepsitory = findRepsitory;
+            _productRepository = productRepository;
             _hotDealRepository = hotDealRepository;
             _brandRepository = brandRepository;
             _productCategoryRepository = productCategoryRepository;
@@ -46,6 +49,7 @@ namespace Web.Services.Concrete
                 Brands=await _brandRepository.GetAllAsync(),
                 ProductCategories=await _productCategoryRepository.GetAllAsync(),
                 Blogs=await _blogRepository.GetOrderByAsync(),
+                Products=await _productRepository.GetAllAsync(),
             };
             return model;
 

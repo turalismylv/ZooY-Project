@@ -9,8 +9,8 @@ namespace DataAccess.Repositories.Abstract
 {
     public interface IProductCategoryRepository : IRepository<ProductCategory>
     {
-        //Task<List<ProductCategory>> GetAllCategoryAsync();
+        Task<List<ProductCategory>> GetAllCategoryAsync();
 
-        //Task<ProductCategory> GetFirstAsync();
+        Task<ProductCategory> GetFirstAsync();
     }
 }

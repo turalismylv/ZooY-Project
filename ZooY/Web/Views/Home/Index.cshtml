@@ -33,70 +33,28 @@
         </div>
 
         <div class="best-seller-card" style="display: flex;">
-            <div class="product-card">
-                <div class="badge">Hot</div>
-                <div class="product-tumb">
-                    <img src="https://www.ncodetechnologies.com/zooy/images/tProduct02-268x240.png" alt="">
-                </div>
-                <div class="product-details">
-                    <span class="product-catagory">Custom Wheels</span>
-                    <h4><a href="">Perfect Titanium Wheel Cover</a></h4>
-                    <div class="product-bottom-details">
-                        <div class="product-price"><small>$80.00</small>$95.99</div>
-                        <div class="product-links">
-                            <a href=""><i class="fa fa-shopping-cart"></i></a>
+
+            @foreach (var product in Model.Products.Take(4))
+            {
+                <div class="product-card">
+                    <div class="badge">Hot</div>
+                    <div class="product-tumb">
+                        <img src="~/assets/img/@product.PhotoName" alt="">
+                    </div>
+                    <div class="product-details">
+                        <span class="product-catagory">@product.ProductCategory.Title</span>
+                        <h4><a href="">@product.Title</a></h4>
+                        <div class="product-bottom-details">
+                            <div class="product-price">$@product.Price</div>
+                            <div class="product-links">
+                                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="product-card">
-                <div class="badge">Hot</div>
-                <div class="product-tumb">
-                    <img src="https://www.ncodetechnologies.com/zooy/images/tProduct02-268x240.png" alt="">
-                </div>
-                <div class="product-details">
-                    <span class="product-catagory">Custom Wheels</span>
-                    <h4><a href="">Perfect Titanium Wheel Cover</a></h4>
-                    <div class="product-bottom-details">
-                        <div class="product-price"><small>$80.00</small>$95.99</div>
-                        <div class="product-links">
-                            <a href=""><i class="fa fa-shopping-cart"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="badge">Hot</div>
-                <div class="product-tumb">
-                    <img src="https://www.ncodetechnologies.com/zooy/images/tProduct02-268x240.png" alt="">
-                </div>
-                <div class="product-details">
-                    <span class="product-catagory">Custom Wheels</span>
-                    <h4><a href="">Perfect Titanium Wheel Cover</a></h4>
-                    <div class="product-bottom-details">
-                        <div class="product-price"><small>$80.00</small>$95.99</div>
-                        <div class="product-links">
-                            <a href=""><i class="fa fa-shopping-cart"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="badge">Hot</div>
-                <div class="product-tumb">
-                    <img src="https://www.ncodetechnologies.com/zooy/images/tProduct02-268x240.png" alt="">
-                </div>
-                <div class="product-details">
-                    <span class="product-catagory">Custom Wheels</span>
-                    <h4><a href="">Perfect Titanium Wheel Cover</a></h4>
-                    <div class="product-bottom-details">
-                        <div class="product-price"><small>$80.00</small>$95.99</div>
-                        <div class="product-links">
-                            <a href=""><i class="fa fa-shopping-cart"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            }
+
+
 
 
 
@@ -127,11 +85,11 @@
     </div>
     <div class="p-categoryrow">
 
-        @foreach (var productCategory in Model.ProductCategories)
+        @foreach (var category in Model.ProductCategories)
         {
-            <div style="background-image: url('/assets/img/@productCategory.PhotoName');" class="p-category-div cat-div">
-                <h2 class="p-category-h2">@productCategory.Title</h2>
-                <a class="btn btn-dark explore view-collect" asp-action="index" asp-controller="shop"><span>View Collection</span></a>
+            <div style="background-image: url('/assets/img/@category.PhotoName');" class="p-category-div cat-div">
+                <h2 class="p-category-h2">@category.Title</h2>
+                <a class="btn btn-dark explore view-collect" data-id="@category.Id" id="categor" asp-controller="shop" ><span>View Collection</span></a>
             </div>
         }
     </div>
@@ -184,7 +142,7 @@
                 <div><img class="last-new-img" style="width: 400px; height:287px" src="~/assets/img/@blog.MainPhotoName" alt=""></div>
                 <div class="info-last">
                     <div class="post-date">@blog.Time.ToString("dd.MM.yyyy")</div>
-               <h4><a class="blog-tit" asp-action="details" asp-controller="blog" asp-route-id="@blog.Id">@blog.Title</a></h4>
+                    <h4><a class="blog-tit" asp-action="details" asp-controller="blog" asp-route-id="@blog.Id">@blog.Title</a></h4>
                     <p class="blog-dis">@blog.Text</p>
                     <a asp-action="details" asp-controller="blog" asp-route-id="@blog.Id" class="rmore btn1">Read more <i class="icon-right-arrow"></i></a>
                 </div>

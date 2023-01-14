@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K/7t0H0RmAWDEAWTKFgNO6qXD0/nalFoEPNQ85uP/TY=",
+  "Hash": "h9GRby7+2m75M+/LoqqSzyqo9DVFYRKtBIFzURlcjL0=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -31467,6 +31467,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\56164806-4751-41af-ad7e-3e18d6e9da69_baylar.jpeg"
     },
     {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\5bc7adae-fd2a-4e3c-8ee9-b8e5b827e1d6_tProduct02-268x240.png",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/5bc7adae-fd2a-4e3c-8ee9-b8e5b827e1d6_tProduct02-268x240.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\5bc7adae-fd2a-4e3c-8ee9-b8e5b827e1d6_tProduct02-268x240.png"
+    },
+    {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\6225aad0-eb0c-4ca1-a078-768f6e93d0f3_performance-parts.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
@@ -31841,6 +31858,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\e427ff89-b318-4648-9124-3f7cbf3173de_blog-listing-img1-389x343.jpg"
     },
     {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\e638e5c0-03eb-4520-8cba-6fb8a0f9ba27_tProduct01-268x240.png",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/e638e5c0-03eb-4520-8cba-6fb8a0f9ba27_tProduct01-268x240.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\e638e5c0-03eb-4520-8cba-6fb8a0f9ba27_tProduct01-268x240.png"
+    },
+    {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\e6bab0a7-bedd-46ee-85aa-8470a20e3b80_mercedes-benz-car-logo-3d-model-obj-mtl-fbx-ztl.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
@@ -31941,6 +31975,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\fef59442-f6bf-47e7-bf18-cba1f73e0846_Emil 1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\search-product-icon.png",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/search-product-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\search-product-icon.png"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\js\\custom.js",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/js/custom.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\custom.js"
     },
     {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\js\\main.js",

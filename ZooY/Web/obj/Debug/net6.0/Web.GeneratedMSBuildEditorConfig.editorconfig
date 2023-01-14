@@ -123,6 +123,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdENhdGVnb3J5XFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Product/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -197,6 +209,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Views/Shared/Components/HelpLine/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSGVscExpbmVcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Views/Shared/_BrandProductPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CcmFuZFByb2R1Y3RQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Views/Shared/_CategoryProductPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yeVByb2R1Y3RQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Views/Shop/Index.cshtml]

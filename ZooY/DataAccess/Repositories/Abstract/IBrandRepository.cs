@@ -9,5 +9,8 @@ namespace DataAccess.Repositories.Abstract
 {
     public interface IBrandRepository : IRepository<Brand>
     {
+        Task<List<Brand>> GetAllBrandAsync();
+
+        Task<Brand> GetFirstAsync();
     }
 }

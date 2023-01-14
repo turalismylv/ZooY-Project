@@ -27,6 +27,8 @@ namespace DataAccess.Contexts
         public DbSet<OurHistory> OurHistory { get; set; }
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<ContactInfo> ContactInfo { get; set; }
+        public DbSet<Product> Products { get; set; }
+
 
     }
 }

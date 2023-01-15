@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h9GRby7+2m75M+/LoqqSzyqo9DVFYRKtBIFzURlcjL0=",
+  "Hash": "QdQ52EiwuA2YYXwCAKMiUBsEUUC7ZEhnTWfXcHNyeN8=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -31297,6 +31297,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\065e326d-d994-4139-9602-4e758b58a494_lighting.jpg"
     },
     {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\09841590-974f-4759-b13f-5898ea426628_tProduct02-268x240.png",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/09841590-974f-4759-b13f-5898ea426628_tProduct02-268x240.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\09841590-974f-4759-b13f-5898ea426628_tProduct02-268x240.png"
+    },
+    {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\12c7ffe1-5c39-41d4-a68d-6db03482181c_blog-listing-img3-370x266.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
@@ -31501,6 +31518,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\6225aad0-eb0c-4ca1-a078-768f6e93d0f3_performance-parts.jpg"
     },
     {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\67fa34a2-c1c1-46a1-82d3-e4ba83a78373_product-detail-img-543x498.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/67fa34a2-c1c1-46a1-82d3-e4ba83a78373_product-detail-img-543x498.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\67fa34a2-c1c1-46a1-82d3-e4ba83a78373_product-detail-img-543x498.jpg"
+    },
+    {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\69978224-2a10-421d-bfbc-194bd2620cb6_WIN_20221014_23_05_34_Pro.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
@@ -31584,6 +31618,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\796e5e4a-9c03-4cc6-8d5f-b96bdb12e165_ford.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\7d43729b-d112-4928-b80a-4e0a42002572_6f64684f40a84f46cf5bb9372cc1a1e4.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/7d43729b-d112-4928-b80a-4e0a42002572_6f64684f40a84f46cf5bb9372cc1a1e4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\7d43729b-d112-4928-b80a-4e0a42002572_6f64684f40a84f46cf5bb9372cc1a1e4.jpg"
     },
     {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\7d66b19f-d6f5-4ddf-805f-882bc9d12c21_audi.jpg",

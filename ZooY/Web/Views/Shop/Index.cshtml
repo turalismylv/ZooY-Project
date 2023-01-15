@@ -26,7 +26,7 @@
                                 <form method="get" asp-action="index" asp-controller="shop">
                                     <label asp-for="Title"></label>
                                     <input asp-for="Title" type="search" placeholder="Enter product name" class="search-doctor-input">
-                                    <button type="submit" class="btn btn-success"><i class="bi bi-search"></i>Search Now</button>
+                                    <button type="submit" class="btn btn-success"><i class="bi bi-search"></i>Search</button>
                                 </form>
                             </div>
                         </div>
@@ -82,7 +82,7 @@
                                         </div>
                                     </div>
                                     <div class="product-inf">
-                                        <h5> <a class="productt-name" href="./product-single.html">@product.Title</a> </h5>
+                                        <h5> <a class="productt-name" asp-action="details" asp-controller="shop" asp-route-id="@product.Id">@product.Title</a> </h5>
                                         <p><span>$</span><span class="price">@product.Price</span></p>
                                     </div>
                                 </div>

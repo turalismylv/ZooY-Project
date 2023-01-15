@@ -8,6 +8,7 @@ namespace Web.Services.Abstract
         Task<ShopIndexVM> GetAllAsync(ShopIndexVM model);
         Task<ShopProductIndexVM> CategoryProductAsync(int id);
         Task<ShopBrandProductIndexVM> BrandProductAsync(int id);
+        Task<ShopDetailsVM> GetAsync(int id);
         //IQueryable<Product> FilterProducts(ShopIndexVM model);
     }
 }

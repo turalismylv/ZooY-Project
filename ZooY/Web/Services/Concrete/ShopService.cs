@@ -67,6 +67,29 @@ namespace Web.Services.Concrete
 
         }
 
+        public async Task<ShopDetailsVM> GetAsync(int id)
+        {
+            var product = await _productRepository.GetAsync(id);
+
+            if (product == null) return null;
+
+            var model = new ShopDetailsVM
+            {
+                Id = product.Id,
+                Description = product.Description,
+                PhotoName = product.PhotoName,
+                Brand = product.Brand,
+                BrandId = product.BrandId,
+                Price = product.Price,
+                ProductCategory=product.ProductCategory,
+                Title = product.Title,
+                ProductCategoryId = product.ProductCategoryId,
+            
+            };
+            return model;
+
+        }
+
 
         public async Task<ShopProductIndexVM> CategoryProductAsync(int id)
         {

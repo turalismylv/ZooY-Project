@@ -1,0 +1,53 @@
+﻿@using Web.ViewModels.Shop
+@model ShopDetailsVM
+
+<section data-aos="fade-up" style="background-image: url(https://www.ncodetechnologies.com/zooy/images/background-bg-1600x156.jpg);" class="first-sec dealofday intro aos-init aos-animate">
+  <div data-aos="fade-right" class="divday">
+    <p class="p-intro">HOME<i class="bi bi-chevron-right"></i><span class="span-intro">SHOP</span></p>
+    <h4 class="h4-intro">SHOP DETAILS</h4>
+  </div>
+</section>
+
+<section >
+
+    
+
+    <div class="product-single">
+        <div><img style="border: 1px solid black; " class="product-pho" src="~/assets/img/@Model.PhotoName" alt=""></div>
+        <div class="des">
+            <h5 class="product-category"></h5>
+            <h2 class="product-tit">@Model.Title</h2>
+            <div class="price ">$@Model.Price</div>
+            <div class="short-discription" style="margin-top: 47px;">
+                <p class="pdi">@Model.Description</p>
+              </div>
+              <div class="cart-btn-div" style="margin-top: 100px;">
+               
+                <div class="cart">
+                  <a class="cart-btn" href="#"><i class="bi bi-cart-check-fill" style="margin-right: 5px;"></i>Add to Cart</a>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <div class="informat">
+        <h2 style=" margin-top: 100px;">Additional Information</h2>
+        <table style=" margin-top: 50px;" class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Category</th>
+                <td colspan="2">@*@Model.ProductCategory.Title*@</td>
+              </tr>
+            </thead>
+            <tbody>
+         
+              <tr>
+                <th scope="row">Brand</th>
+                <td colspan="2">@*@Model.Brand.Title*@</td>
+              </tr>
+         
+            </tbody>
+          </table>
+    </div>
+
+</section>

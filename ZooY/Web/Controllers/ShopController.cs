@@ -21,6 +21,13 @@ namespace Web.Controllers
             return View(model);
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Details(int id)
+        {
+            var model = await _shopService.GetAsync(id);
+            return View(model);
+        }
+
         public async Task<IActionResult> CategoryProduct(int id)
         {
             var model = await _shopService.CategoryProductAsync(id);

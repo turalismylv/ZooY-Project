@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QdQ52EiwuA2YYXwCAKMiUBsEUUC7ZEhnTWfXcHNyeN8=",
+  "Hash": "bKMc3EqdYJmmoLBk/QxnLrROrjrbfzlmfBqWtu4PVOM=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -31873,6 +31873,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\ce95cc3b-5ef4-486c-8906-d7210f513395_find-img-710x539.png"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\d1b9e8a0-738a-4769-abb2-f2167db393a4_product2.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/d1b9e8a0-738a-4769-abb2-f2167db393a4_product2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\d1b9e8a0-738a-4769-abb2-f2167db393a4_product2.jpg"
     },
     {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\d9f361d9-3f6c-4cbb-bafb-5d126721c096_blog-img02-769x376.jpg",

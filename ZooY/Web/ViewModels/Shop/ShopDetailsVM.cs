@@ -13,5 +13,6 @@ namespace Web.ViewModels.Shop
         public ProductCategory ProductCategory { get; set; }
         public int BrandId { get; set; }
         public Brand Brand { get; set; }
+
     }
 }

@@ -15,7 +15,8 @@
                 </div>
             </div>
             <div class="product-inf">
-                <h5 class="productt-name" id="titledi">@product.Title</h5>
+                <h5> <a class="productt-name" asp-action="details" asp-controller="shop" asp-route-id="@product.Id">@product.Title</a> </h5>
+
                 <p><span>$</span><span class="price">@product.Price</span></p>
             </div>
         </div>

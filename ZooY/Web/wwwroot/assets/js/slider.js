@@ -22,4 +22,5 @@ $(".testimonial-reel").slick({
         }
       }
     ]
-  });
+});
+

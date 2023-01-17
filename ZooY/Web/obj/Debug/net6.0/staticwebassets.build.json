@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bKMc3EqdYJmmoLBk/QxnLrROrjrbfzlmfBqWtu4PVOM=",
+  "Hash": "XA7XQkW0Sr8QtWaugFEmglpUeH6hCmJ5hkWh073mGrA=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -32077,6 +32077,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\custom.js"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\js\\jquery-3.4.1.min.js",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/js/jquery-3.4.1.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\jquery-3.4.1.min.js"
     },
     {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\js\\main.js",

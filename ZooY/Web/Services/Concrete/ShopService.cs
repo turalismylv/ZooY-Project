@@ -84,6 +84,7 @@ namespace Web.Services.Concrete
                 ProductCategory=product.ProductCategory,
                 Title = product.Title,
                 ProductCategoryId = product.ProductCategoryId,
+
             
             };
             return model;

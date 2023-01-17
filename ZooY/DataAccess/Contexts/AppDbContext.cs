@@ -28,7 +28,8 @@ namespace DataAccess.Contexts
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<ContactInfo> ContactInfo { get; set; }
         public DbSet<Product> Products { get; set; }
-
+        public DbSet<Basket> Baskets { get; set; }
+        public DbSet<BasketProduct> BasketProducts { get; set; }
 
     }
 }

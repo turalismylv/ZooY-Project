@@ -408,9 +408,9 @@ a
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    background: white;
+    height: 350px;
     padding: 50px;
-    background: #f0f0f0;
 }
 
 .product-tumb img {

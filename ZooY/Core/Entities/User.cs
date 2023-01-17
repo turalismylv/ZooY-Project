@@ -9,5 +9,6 @@ namespace Core.Entities
 {
     public class User :IdentityUser
     {
+        public Basket Basket { get; set; }
     }
 }

@@ -73,5 +73,34 @@ namespace Web.Areas.Admin.Controllers
 
 
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Details(int id)
+        {
+            var model = await _productService.GetDetailsModelAsync(id);
+            if (model == null) return NotFound();
+
+            return View(model);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> AddTags(int id)
+        {
+            var model = await _productService.GetAddTagsModelAsync(id);
+            if (model == null) return NotFound();
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddTags(int id, ProductAddTagsVM model)
+        {
+            if (id != model.ProductId) return BadRequest();
+            var isSucceeded = await _productService.AddTagsAsync(model);
+            if (isSucceeded) return RedirectToAction(nameof(Index));
+
+            model = await _productService.GetAddTagsModelAsync(model.ProductId);
+            return View(model);
+        }
     }
 }

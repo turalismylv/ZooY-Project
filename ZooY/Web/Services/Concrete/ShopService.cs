@@ -78,12 +78,13 @@ namespace Web.Services.Concrete
                 Id = product.Id,
                 Description = product.Description,
                 PhotoName = product.PhotoName,
-                Brand = product.Brand,
+                Brand = await _brandRepository.GetAsync(product.BrandId),
                 BrandId = product.BrandId,
                 Price = product.Price,
-                ProductCategory=product.ProductCategory,
+                ProductCategory=await _productCategoryRepository.GetAsync(product.ProductCategoryId),
                 Title = product.Title,
                 ProductCategoryId = product.ProductCategoryId,
+                
 
             
             };

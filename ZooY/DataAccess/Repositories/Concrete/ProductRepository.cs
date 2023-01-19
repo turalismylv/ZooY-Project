@@ -70,6 +70,14 @@ namespace DataAccess.Repositories.Concrete
                  .Skip((page - 1) * take).Take(take)
                  .ToListAsync();
         }
+
+        public async Task<Product> GetWithTagsAsync(int id)
+        {
+            return await _context.Products
+                .Include(c => c.CategoriesTags)
+                .ThenInclude(ct => ct.Tag)
+                .FirstOrDefaultAsync(c => c.Id == id);
+        }
     }
    
 }

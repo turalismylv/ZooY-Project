@@ -22,5 +22,6 @@ namespace DataAccess.Repositories.Abstract
         IQueryable<Product> FilterByTitle(string title);
         Task<List<Product>> PaginateProductsAsync(IQueryable<Product> products, int page, int take);
         Task<List<Product>> Filter(string title, int page, int take);
+        Task<Product> GetWithTagsAsync(int id);
     }
 }

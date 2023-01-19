@@ -1,0 +1,13 @@
+﻿@using Web.Areas.Admin.ViewModels.Product
+@model ProductDetailsVM
+
+<h1>@Model.Product.Title</h1>
+
+<h3>Tags:</h3>
+@{
+    foreach (var categoryTag in Model.Product.CategoriesTags)
+    {
+        <p>@categoryTag.Tag.Title</p>
+    }
+}
+ <a class="btn btn-danger" asp-action="index" asp-controller="product">Cancel</a>

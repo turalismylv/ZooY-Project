@@ -16,17 +16,23 @@ namespace Web.Areas.Admin.Services.Concrete
         private readonly IActionContextAccessor actionContextAccessor;
         private readonly IFileService _fileService;
         private readonly IProductCategoryRepository _productCategoryRepository;
+        private readonly ITagRepository _tagRepository;
+        private readonly IProductTagRepository _productTagRepository;
         private readonly ModelStateDictionary _modelState;
         public ProductService(IProductRepository productRepository,
             IBrandRepository brandRepository,
             IActionContextAccessor actionContextAccessor,
             IFileService fileService,
-            IProductCategoryRepository productCategoryRepository)
+            IProductCategoryRepository productCategoryRepository,
+            ITagRepository tagRepository,
+            IProductTagRepository productTagRepository)
         {
             _productRepository = productRepository;
             _brandRepository = brandRepository;
             _fileService = fileService;
             _productCategoryRepository = productCategoryRepository;
+            _tagRepository = tagRepository;
+            _productTagRepository = productTagRepository;
             _modelState = actionContextAccessor.ActionContext.ModelState;
         }
 
@@ -56,6 +62,20 @@ namespace Web.Areas.Admin.Services.Concrete
                      Text = c.Title,
                      Value = c.Id.ToString()
                  }).ToList()
+            };
+
+            return model;
+        }
+
+
+        public async Task<ProductDetailsVM> GetDetailsModelAsync(int id)
+        {
+            var product = await _productRepository.GetWithTagsAsync(id);
+            if (product == null) return null;
+
+            var model = new ProductDetailsVM
+            {
+                Product = product
             };
 
             return model;
@@ -195,6 +215,65 @@ namespace Web.Areas.Admin.Services.Concrete
                 return true;
             }
             return false;
+        }
+
+        public async Task<bool> AddTagsAsync(ProductAddTagsVM model)
+        {
+            if (!_modelState.IsValid) return false;
+
+            var product = await _productRepository.GetAsync(model.ProductId);
+            if (product == null)
+            {
+                _modelState.AddModelError("ProductId", "Product tapılmadı");
+                return false;
+            }
+
+            foreach (var tagId in model.TagsIds)
+            {
+                var tag = await _tagRepository.GetAsync(tagId);
+                if (tag == null)
+                {
+                    _modelState.AddModelError(string.Empty, $"{tagId} id-li tag tapılmadı");
+                    return false;
+                }
+
+                var isExist = await _productTagRepository.AnyAsync(ct => ct.ProductId == product.Id && ct.TagId == tagId);
+                if (isExist)
+                {
+                    _modelState.AddModelError(string.Empty, $"{tag.Id} id-li tag artıq bu Product əlavə olunub");
+                    return false;
+                }
+
+                var productTag = new ProductTag
+                {
+                    ProductId = product.Id,
+                    TagId = tag.Id
+                };
+
+                await _productTagRepository.CreateAsync(productTag);
+            }
+
+            return true;
+        }
+
+        public async Task<ProductAddTagsVM> GetAddTagsModelAsync(int id)
+        {
+            var product = await _productRepository.GetAsync(id);
+            if (product == null) return null;
+
+            var tags = await _tagRepository.GetAllAsync();
+
+            var model = new ProductAddTagsVM
+            {
+                Tags = tags.Select(t => new SelectListItem
+                {
+                    Text = t.Title,
+                    Value = t.Id.ToString()
+                })
+                .ToList()
+            };
+
+            return model;
         }
     }
 }

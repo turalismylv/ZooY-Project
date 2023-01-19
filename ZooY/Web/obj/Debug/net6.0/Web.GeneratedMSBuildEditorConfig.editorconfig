@@ -123,8 +123,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdENhdGVnb3J5XFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Product/AddTags.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxBZGRUYWdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Product/Index.cshtml]
@@ -137,6 +145,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Tag/AddProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXEFkZFByb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Tag/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Tag/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Tag/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Tag/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/tursl/OneDrive/Desktop/CODEACADEMY/BackEndZooY/ZooY_Project/ZooY/Web/Areas/Admin/Views/Testimonial/Create.cshtml]

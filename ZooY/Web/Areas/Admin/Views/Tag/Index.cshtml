@@ -1,0 +1,45 @@
+﻿@using Web.Areas.Admin.ViewModels.Tag
+@model TagIndexVM
+
+<a class="btn btn-primary" asp-action="create" asp-controller="tag">Create</a>
+<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Title</th>
+            <th scope="col">CreateAt</th>
+            <th scope="col">ModifiedAt</th>
+            <th scope="col">Actions</th>
+
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Title</th>
+            <th scope="col">CreateAt</th>
+            <th scope="col">ModifiedAt</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </tfoot>
+    <tbody>
+        @foreach (var tag in Model.Tags)
+        {
+            <tr>
+                <td>@tag.Id</td>
+                <td>@tag.Title</td>
+                <td>@tag.CreatedAt.ToShortDateString()</td>
+                <td>@tag.ModifiedAt.ToShortDateString()</td>
+                <td>
+                    <a class="btn btn-primary" asp-action="update" asp-controller="tag" asp-route-id="@tag.Id">Update</a>
+                    <a class="btn btn-success" asp-action="addproducts" asp-controller="tag" asp-route-id="@tag.Id">Add Product</a>
+                     <a class="btn btn-warning" asp-action="details" asp-controller="tag" asp-route-id="@tag.Id">Info</a>
+                    <form method="post" asp-action="delete" asp-controller="tag" asp-route-id="@tag.Id">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                   
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

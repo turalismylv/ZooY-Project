@@ -1,0 +1,20 @@
+﻿@using Web.Areas.Admin.ViewModels.Product
+@model ProductAddTagsVM
+
+@{
+    var productId = Context.Request.RouteValues["id"];
+}
+
+<form asp-action="addtags" asp-controller="product" method="post">
+    <div asp-validation-summary="ModelOnly"></div>
+    <input type="hidden" asp-for="ProductId" value="@productId" />
+    <div class="form-group">
+        <label class="d-block" asp-for="TagsIds"></label>
+        <select class="select" multiple asp-for="TagsIds" asp-items="Model.Tags"></select>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-primary">Add</button>
+    </div>
+</form>
+ <a class="btn btn-danger" asp-action="index" asp-controller="product">Cancel</a>
+

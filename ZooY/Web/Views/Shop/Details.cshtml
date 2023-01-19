@@ -23,8 +23,8 @@
               </div>
               <div class="cart-btn-div" style="margin-top: 100px;">
                
-                <div class="cart">
-                  <a class="cart-btn" href="#"><i class="bi bi-cart-check-fill" style="margin-right: 5px;"></i>Add to Cart</a>
+                <div id="addToCart" data-price="@Model.Price" data-title="@Model.Title" data-photoname="@Model.PhotoName" data-id="@Model.Id" class="cart">
+                  <a class="cart-btn"><i class="bi bi-cart-check-fill" style="margin-right: 5px;"></i>Add to Cart</a>
                 </div>
               </div>
         </div>
@@ -36,14 +36,14 @@
             <thead>
               <tr>
                 <th scope="col">Category</th>
-                <td colspan="2">@*@Model.ProductCategory.Title*@</td>
+                <td colspan="2">@Model.ProductCategory.Title</td>
               </tr>
             </thead>
             <tbody>
          
               <tr>
                 <th scope="row">Brand</th>
-                <td colspan="2">@*@Model.Brand.Title*@</td>
+                <td colspan="2">@Model.Brand.Title</td>
               </tr>
          
             </tbody>

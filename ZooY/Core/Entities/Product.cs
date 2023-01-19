@@ -18,5 +18,7 @@ namespace Core.Entities
         public ProductCategory ProductCategory { get; set; }
         public int BrandId { get; set; }
         public Brand Brand { get; set; }
+        public ICollection<ProductTag> CategoriesTags { get; set; }
+
     }
 }

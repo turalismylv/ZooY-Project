@@ -1,53 +1,49 @@
 ﻿@using Web.Areas.Admin.ViewModels.Brand
 @model BrandIndexVM
 
-<a class="btn btn-primary" asp-action="create" asp-controller="brand">Create</a>
 
+<a class="btn btn-success m-2" asp-action="create" asp-controller="brand">Create</a>
 
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>CreateAt</th>
+            <th>ModifiedAt</th>
+            <th>Photo</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>CreateAt</th>
+            <th>ModifiedAt</th>
+            <th>Photo</th>
+            <th>Actions</th>
+        </tr>
+    </tfoot>
+    <tbody>
 
-
-
-<div class="table-responsive">
-    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Title</th>
-                <th>CreateAt</th>
-                <th>ModifiedAt</th>
-                <th>Photo</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tfoot>
-            <tr>
-                <th>Id</th>
-                <th>Title</th>
-                <th>CreateAt</th>
-                <th>ModifiedAt</th>
-                <th>Photo</th>
-                <th>Actions</th>
-            </tr>
-        </tfoot>
-      <tbody>
         @foreach (var brand in Model.Brands)
         {
             <tr>
-                <td>@brand.Id</td>
+                <td scope="row">@brand.Id</td>
                 <td>@brand.Title</td>
                 <td>@brand.CreatedAt.ToShortDateString()</td>
                 <td>@brand.ModifiedAt.ToShortDateString()</td>
-                <td><img class="img-thumbnail" style="width:50px ; height:50px; object-fit:cover" src="~/assets/img/@brand.PhotoName" /></td>
+                <td><img class="img-thumbnail" style="width:150px ;  object-fit:cover" src="~/assets/img/@brand.PhotoName" /></td>
 
                 <td>
-                    <a class="btn btn-primary" asp-action="update" asp-controller="brand" asp-route-id="@brand.Id">Update</a>
+
                     <form method="post" asp-action="delete" asp-controller="brand" asp-route-id="@brand.Id">
-                        <button type="submit" class="btn btn-danger">Delete</button>
+                        <a class="btn btn-warning m-2" asp-action="update" asp-controller="brand" asp-route-id="@brand.Id">Update</a>
+                        <button type="submit" class="btn btn-primary m-2">Delete</button>
                     </form>
                 </td>
             </tr>
         }
-
     </tbody>
-    </table>
-</div>
+</table>

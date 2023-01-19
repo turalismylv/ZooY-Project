@@ -75,7 +75,10 @@ namespace Web.Areas.Admin.Services.Concrete
 
             var model = new ProductDetailsVM
             {
-                Product = product
+                Product = product,
+                Brand=await _brandRepository.GetAsync(product.BrandId),
+                ProductCategory=await _productCategoryRepository.GetAsync(product.ProductCategoryId),
+                
             };
 
             return model;

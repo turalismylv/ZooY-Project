@@ -1,37 +1,36 @@
 ﻿@using Web.Areas.Admin.ViewModels.Testimonial
 @model TestimonialIndexVM
 
-<a class="btn btn-primary" asp-action="create" asp-controller="testimonial">Create</a>
 
 
 
+<a class="btn btn-success m-2" asp-action="create" asp-controller="testimonial">Create</a>
 
 
-<div class="table-responsive">
-    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Fullname</th>
-                <th>Description</th>
-                <th>CreateAt</th>
-                <th>ModifiedAt</th>
-                <th>Photo</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tfoot>
-            <tr>
-                <th>Id</th>
-                <th>Fullname</th>
-                <th>Description</th>
-                <th>CreateAt</th>
-                <th>ModifiedAt</th>
-                <th>Photo</th>
-                <th>Actions</th>
-            </tr>
-        </tfoot>
-      <tbody>
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Fullname</th>
+            <th>Description</th>
+            <th>CreateAt</th>
+            <th>ModifiedAt</th>
+            <th>Photo</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>Id</th>
+            <th>Fullname</th>
+            <th>Description</th>
+            <th>CreateAt</th>
+            <th>ModifiedAt</th>
+            <th>Photo</th>
+            <th>Actions</th>
+        </tr>
+    </tfoot>
+    <tbody>
         @foreach (var testimonial in Model.Testimonials)
         {
             <tr>
@@ -40,11 +39,12 @@
                 <td>@Html.Raw(testimonial.Description)</td>
                 <td>@testimonial.CreatedAt.ToShortDateString()</td>
                 <td>@testimonial.ModifiedAt.ToShortDateString()</td>
-                <td><img class="img-thumbnail" style="width:50px ; height:50px; object-fit:cover" src="~/assets/img/@testimonial.PhotoName" /></td>
+                <td><img class="img-thumbnail" style="width:200px ;  object-fit:cover" src="~/assets/img/@testimonial.PhotoName" /></td>
 
                 <td>
-                    <a class="btn btn-primary" asp-action="update" asp-controller="testimonial" asp-route-id="@testimonial.Id">Update</a>
+
                     <form method="post" asp-action="delete" asp-controller="testimonial" asp-route-id="@testimonial.Id">
+                        <a class="btn  btn-warning mb-2" asp-action="update" asp-controller="testimonial" asp-route-id="@testimonial.Id">Update</a>
                         <button type="submit" class="btn btn-danger">Delete</button>
                     </form>
                 </td>
@@ -52,5 +52,4 @@
         }
 
     </tbody>
-    </table>
-</div>
+</table>

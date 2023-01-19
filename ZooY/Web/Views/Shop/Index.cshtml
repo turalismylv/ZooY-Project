@@ -35,7 +35,7 @@
                             <ul>
                                 @foreach (var category in Model.ProductCategories)
                                 {
-                                    <li data-id="@category.Id" id="categor">@category.Title (@category.Products.Count) </li>
+                                    <li data-id="@category.Id" id="categor"><a href="#"> @category.Title (@category.Products.Count)</a> </li>
                                 }
                             </ul>
                         </div>
@@ -45,7 +45,7 @@
 
                                 @foreach (var brand in Model.Brands)
                                 {
-                                    <li data-id="@brand.Id" id="brand">@brand.Title (@brand.Products.Count) </li>
+                                    <li data-id="@brand.Id" id="brand"><a href="#"> @brand.Title (@brand.Products.Count)</a></li>
                                 }
 
                             </ul>

@@ -1,55 +1,53 @@
 ﻿@using Web.Areas.Admin.ViewModels.Product
 @model ProductIndexVM
 
-<a class="btn btn-primary" asp-action="create" asp-controller="product">Create</a>
-<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+
+
+
+<a class="btn btn-success m-2" asp-action="create" asp-controller="product">CREATE</a>
+
+
+<table class="table table-dark">
     <thead>
         <tr>
-            <th scope="col">Id</th>
-            <th scope="col">Title</th>
-            <th scope="col">Description</th>
-            <th scope="col">Price</th>
-            <th scope="col">Category</th>
-            <th scope="col">CreateAt</th>
-            <th scope="col">ModifiedAt</th>
-            <th scope="col">Photo</th>
-            <th scope="col">Actions</th>
-
+            <th>Id</th>
+            <th>Title</th>
+            <th>CreateAt</th>
+            <th>ModifiedAt</th>
+            <th>Photo</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tfoot>
         <tr>
-            <th scope="col">Id</th>
-            <th scope="col">Title</th>
-            <th scope="col">Description</th>
-            <th scope="col">Price</th>
-            <th scope="col">Category</th>
-            <th scope="col">CreateAt</th>
-            <th scope="col">ModifiedAt</th>
-            <th scope="col">Photo</th>
-            <th scope="col">Actions</th>
+            <th>Id</th>
+            <th>Title</th>
+            <th>CreateAt</th>
+            <th>ModifiedAt</th>
+            <th>Photo</th>
+            <th>Actions</th>
         </tr>
     </tfoot>
     <tbody>
+
         @foreach (var product in Model.Products)
         {
             <tr>
-                <td>@product.Id</td>
+                <td scope="row">@product.Id</td>
                 <td>@product.Title</td>
-                <td>@product.Description</td>
-                <td>@product.Price</td>
-                <td>@product.ProductCategory.Title</td>
                 <td>@product.CreatedAt.ToShortDateString()</td>
                 <td>@product.ModifiedAt.ToShortDateString()</td>
-                <td><img class="img-thumbnail" style="width:50px ; height:50px; object-fit:cover" src="~/assets/img/@product.PhotoName" /></td>
-                <td>
-                    <a class="btn btn-primary" asp-action="update" asp-controller="product" asp-route-id="@product.Id">Update</a>
-                    <a class="btn btn-success" asp-action="addtags" asp-controller="product" asp-route-id="@product.Id">Add tags</a>
-                    <form method="post" asp-action="delete" asp-controller="product" asp-route-id="@product.Id">
-                        <button type="submit" class="btn btn-danger">Delete</button>
-                    </form>
-                    <a class="btn btn-warning" asp-action="details" asp-controller="product" asp-route-id="@product.Id">Info</a>
+                <td><img class="img-thumbnail"  style="width:150px ;  object-fit:cover" src="~/assets/img/@product.PhotoName" /></td>
 
+                <td>
+
+                    <form method="post" asp-action="delete" asp-controller="product" asp-route-id="@product.Id">
+                        <a class="btn btn-warning m-2" asp-action="update" asp-controller="product" asp-route-id="@product.Id">Update</a>
+                         <a class="btn btn-light m-2" asp-action="addtags" asp-controller="product" asp-route-id="@product.Id">Add tags</a>
+                          <a class="btn btn-info" asp-action="details" asp-controller="product" asp-route-id="@product.Id">Info</a>
+                        <button type="submit" class="btn btn-primary m-2">Delete</button>
+
+                    </form>
                 </td>
             </tr>
         }

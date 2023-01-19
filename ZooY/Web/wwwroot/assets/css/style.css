@@ -1801,16 +1801,25 @@ textarea.form-control {
         .products .left-sidebar .categories {
             margin-top: 40px;
         }
-
             .products .left-sidebar .categories li {
                 padding: 8px 0;
                 color: #888;
                 font-size: 14px;
                 transition: 0.3s all linear;
                 cursor: pointer;
+                text-decoration: none;
             }
-
-                .products .left-sidebar .categories li:hover {
+            .products .left-sidebar .categories li a {
+                padding: 8px 0;
+               
+                color: #888;
+                font-size: 14px;
+                transition: 0.3s all linear;
+                cursor: pointer;
+                text-decoration: none;
+            }
+      
+                .products .left-sidebar .categories li a:hover {
                     color: #fcb818;
                 }
 

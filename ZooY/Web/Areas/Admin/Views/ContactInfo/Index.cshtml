@@ -4,13 +4,13 @@
 
 @if (Model.ContactInfo == null)
 {
-    <a class="btn btn-primary" asp-action="create" asp-controller="contactinfo">Create</a>
+    <a class="btn btn-success m-2" asp-action="create" asp-controller="contactinfo">Create</a>
 }
-<div class="table-responsive">
-    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-        <thead>
-            <tr>
-                <th>Id</th>
+
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th>Id</th>
                 <th>Address</th>
                 <th>Email</th>
                 <th>Phone</th>
@@ -18,11 +18,11 @@
                 <th>CreateAt</th>
                 <th>ModifiedAt</th>
                 <th>Actions</th>
-            </tr>
-        </thead>
-        <tfoot>
-            <tr>
-                <th>Id</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>Id</th>
                 <th>Address</th>
                 <th>Email</th>
                 <th>Phone</th>
@@ -30,10 +30,11 @@
                 <th>CreateAt</th>
                 <th>ModifiedAt</th>
                 <th>Actions</th>
-            </tr>
-        </tfoot>
-        <tbody>
-            @if (Model.ContactInfo != null)
+        </tr>
+    </tfoot>
+    <tbody>
+
+        @if (Model.ContactInfo != null)
             {
                 <tr>
                     <td>@Model.ContactInfo.Id</td>
@@ -45,14 +46,14 @@
                     <td>@Model.ContactInfo.ModifiedAt.ToShortDateString()</td>
 
                     <td>
-                        <a class="btn btn-primary" asp-action="update" asp-controller="ContactInfo" asp-route-id="@Model.ContactInfo.Id">Update</a>
+                        
                         <form method="post" asp-action="delete" asp-controller="ContactInfo" asp-route-id="@Model.ContactInfo.Id">
+                            <a class="btn btn-warning m-2" asp-action="update" asp-controller="ContactInfo" asp-route-id="@Model.ContactInfo.Id">Update</a>
                             <button type="submit" class="btn btn-danger">Delete</button>
                         </form>
                     </td>
                 </tr>
 
             }
-        </tbody>
-    </table>
-</div>
+    </tbody>
+</table>

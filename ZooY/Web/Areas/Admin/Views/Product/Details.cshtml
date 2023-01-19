@@ -1,7 +1,33 @@
 ﻿@using Web.Areas.Admin.ViewModels.Product
 @model ProductDetailsVM
 
+
+<h3>Id:</h3>
+<p>@Model.Product.Id</p>
+
+<h3>Title:</h3>
 <h1>@Model.Product.Title</h1>
+
+
+<h3>Description:</h3>
+<p>@Model.Product.Description</p>
+
+<h3>Price:</h3>
+<p>@Model.Product.Price</p>
+
+<h3>Brand:</h3>
+<p>@Model.Product.Brand.Title</p>
+
+<h3>ProductCategory:</h3>
+<p>@Model.Product.ProductCategory.Title</p>
+
+<h3>CreatedAt:</h3>
+<p>@Model.Product.CreatedAt</p>
+
+<h3>ModifiedAt:</h3>
+<p>@Model.Product.ModifiedAt</p>
+
+
 
 <h3>Tags:</h3>
 @{
@@ -10,4 +36,9 @@
         <p>@categoryTag.Tag.Title</p>
     }
 }
+
+
+<h3>Photo:</h3>
+<p><img width="200px" src="~/assets/img/@Model.Product.PhotoName" /></p>
+
  <a class="btn btn-danger" asp-action="index" asp-controller="product">Cancel</a>

@@ -2,33 +2,31 @@
 @using Web.Areas.Admin.ViewModels.ContactInfo
 @model ContactInfoCreateVM
 
-<form enctype="multipart/form-data" asp-action="create" asp-controller="contactinfo" method="post">
 
-
-
-    <div class="form-group">
-        <label asp-for="Address">Address</label>
-        <input class="form-control" asp-for="Address">
-        <span asp-validation-for="Address"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Email">Email</label>
-        <input class="form-control" asp-for="Email">
-        <span asp-validation-for="Email"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Phone">Phone</label>
-        <input class="form-control" asp-for="Phone">
-        <span asp-validation-for="Phone"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="Website">Website</label>
-        <input class="form-control" asp-for="Website">
-        <span asp-validation-for="Website"></span>
-    </div>
-
-    <button type="submit" class="btn btn-primary">Create</button>
-    <a class="btn btn-danger" asp-action="index" asp-controller="contactinfo">Cancel</a>
-</form>
-
+<div class="bg-secondary rounded h-100 p-4">
+    <h1 style="color:#eb1616">CREATE</h1>
+    <form enctype="multipart/form-data" asp-action="create" asp-controller="contactinfo" method="post">
+        <div class="form-floating mb-3">
+            <input class="form-control" asp-for="Address" />
+            <label asp-for="Address">Address</label>
+            <span asp-validation-for="Address"></span>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" asp-for="Email" />
+            <label asp-for="Email">Email</label>
+            <span asp-validation-for="Email"></span>
+        </div>
+        <div class="form-floating mb-3">
+            <input class="form-control" asp-for="Phone" />
+            <label  asp-for="Phone">Phone</label>
+            <span asp-validation-for="Phone"></span>
+        </div>
+           <div class="form-floating mb-3">
+            <input class="form-control" asp-for="Website" />
+            <label asp-for="Website">Website</label>
+            <span asp-validation-for="Website"></span>
+        </div>
+        <button type="submit" class="btn btn-success m-2">Create</button>
+        <a class="btn btn-primary m-2" asp-action="index" asp-controller="contactinfo">Cancel</a>
+    </form>
+</div>

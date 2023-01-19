@@ -1,39 +1,43 @@
 ﻿@using Web.Areas.Admin.ViewModels.Product
 @model ProductCreateVM
 
-<form enctype="multipart/form-data" asp-action="create" asp-controller="product" method="post">
 
-     <div class="form-group">
-        <label asp-for="Title">Title</label>
-        <input class="form-control" asp-for="Title">
-        <span asp-validation-for="Title"></span>
-    </div>
-      <div class="form-group">
-        <label asp-for="Description">Description</label>
-        <textarea class="form-control" asp-for="Description"></textarea>
-        <span asp-validation-for="Description"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Price">Price</label>
-        <input class="form-control" asp-for="Price">
-        <span asp-validation-for="Price"></span>
-    </div>
-      <div class="form-group">
+
+<div class="bg-secondary rounded h-100 p-4">
+    <h1 style="color:#eb1616">CREATE</h1>
+    <form enctype="multipart/form-data" asp-action="create" asp-controller="product" method="post">
+        <div class="form-floating mb-3">
+            <input class="form-control" asp-for="Title">
+            <label asp-for="Title">Title</label>
+            <span asp-validation-for="Title"></span>
+        </div>
+        <div class="form-floating mb-3">
+            <input class="form-control" asp-for="Description">
+            <label asp-for="Description">Description</label>
+            <span asp-validation-for="Description"></span>
+        </div>
+        <div class="form-floating mb-3">
+               <input type="number" class="form-control" asp-for="Price">
+            <label asp-for="Price">Price</label>
+            <span asp-validation-for="Price"></span>
+        </div>
         <label asp-for="CategoryId">Category</label>
-        <select class="form-select" asp-for="CategoryId" asp-items="Model.Categories"></select>
+        <select class="form-select form-select-sm mb-3" asp-for="CategoryId" asp-items="Model.Categories" aria-label=".form-select-sm example">
+            <option selected="">Open this select menu</option>
+        </select>
         <span asp-validation-for="CategoryId"></span>
-    </div>
-      <div class="form-group">
         <label asp-for="BrandId">Brand</label>
-        <select class="form-select" asp-for="BrandId" asp-items="Model.Brands"></select>
+        <select class="form-select form-select-sm mb-3" asp-for="BrandId" asp-items="Model.Brands" aria-label=".form-select-sm example">
+            <option selected="">Open this select menu</option>
+        </select>
         <span asp-validation-for="BrandId"></span>
-    </div>
-      <div class="form-group">
-        <label asp-for="MainPhoto">MainPhoto</label>
-        <input class="form-control" asp-for="MainPhoto">
-        <span asp-validation-for="MainPhoto"></span>
-    </div>
+        <div class="mb-3">
+            <label class="form-label" asp-for="MainPhoto">MainPhoto</label>
+            <input class="form-control bg-dark" class="form-control" asp-for="MainPhoto">
+            <span asp-validation-for="MainPhoto"></span>
+        </div>
 
-    <button type="submit" class="btn btn-primary">Create</button>
-    <a class="btn btn-danger" asp-action="index" asp-controller="product">Cancel</a>
-</form>
+        <button type="submit" class="btn btn-success m-2">Create</button>
+        <a class="btn btn-primary m-2" asp-action="index" asp-controller="product">Cancel</a>
+    </form>
+</div>

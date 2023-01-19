@@ -1,28 +1,33 @@
 ﻿@using Web.Areas.Admin.ViewModels.Tag
 @model TagIndexVM
 
-<a class="btn btn-primary" asp-action="create" asp-controller="tag">Create</a>
-<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+
+
+
+<a class="btn btn-success m-2" asp-action="create" asp-controller="tag">CREATE</a>
+
+
+<table class="table table-dark">
     <thead>
         <tr>
-            <th scope="col">Id</th>
-            <th scope="col">Title</th>
-            <th scope="col">CreateAt</th>
-            <th scope="col">ModifiedAt</th>
-            <th scope="col">Actions</th>
-
+            <th >Id</th>
+            <th>Title</th>
+            <th >CreateAt</th>
+            <th >ModifiedAt</th>
+            <th >Actions</th>
         </tr>
     </thead>
     <tfoot>
         <tr>
-            <th scope="col">Id</th>
-            <th scope="col">Title</th>
-            <th scope="col">CreateAt</th>
-            <th scope="col">ModifiedAt</th>
-            <th scope="col">Actions</th>
+           <th >Id</th>
+            <th >Title</th>
+            <th >CreateAt</th>
+            <th >ModifiedAt</th>
+            <th >Actions</th>
         </tr>
     </tfoot>
     <tbody>
+
         @foreach (var tag in Model.Tags)
         {
             <tr>
@@ -31,15 +36,18 @@
                 <td>@tag.CreatedAt.ToShortDateString()</td>
                 <td>@tag.ModifiedAt.ToShortDateString()</td>
                 <td>
-                    <a class="btn btn-primary" asp-action="update" asp-controller="tag" asp-route-id="@tag.Id">Update</a>
-                    <a class="btn btn-success" asp-action="addproducts" asp-controller="tag" asp-route-id="@tag.Id">Add Product</a>
-                     <a class="btn btn-warning" asp-action="details" asp-controller="tag" asp-route-id="@tag.Id">Info</a>
-                    <form method="post" asp-action="delete" asp-controller="tag" asp-route-id="@tag.Id">
-                        <button type="submit" class="btn btn-danger">Delete</button>
+                     <form method="post" asp-action="delete" asp-controller="tag" asp-route-id="@tag.Id">
+                        <a class="btn btn-warning m-2" asp-action="update" asp-controller="tag" asp-route-id="@tag.Id">Update</a>
+                        <a class="btn btn-light m-2" asp-action="addproducts" asp-controller="tag" asp-route-id="@tag.Id">Add Product</a>
+                        <a class="btn btn-info" asp-action="details" asp-controller="tag" asp-route-id="@tag.Id">Info</a>
+                        <button type="submit" class="btn btn-primary m-2">Delete</button>
                     </form>
-                   
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
+
+
+           

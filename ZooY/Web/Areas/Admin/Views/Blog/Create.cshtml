@@ -2,61 +2,70 @@
 @using Web.Areas.Admin.ViewModels.Blog
 @model BlogCreateVM
 
-<form enctype="multipart/form-data" asp-action="create" asp-controller="blog" method="post">
-    <div class="form-group">
-        <label asp-for="Title">Title</label>
-        <input asp-for="Title" />
-        <span asp-validation-for="Title"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Text">Text</label>
-    <textarea class="form-control" asp-for="Text"></textarea>
-        <span asp-validation-for="Text"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Time">Time</label>
-        <input asp-for="Time" />
-        <span asp-validation-for="Time"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="DetailTitle">DetailTitle</label>
-        <input asp-for="DetailTitle" />
-        <span asp-validation-for="DetailTitle"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="DescriptionOne">DescriptionOne</label>
-        <textarea class="form-control" asp-for="DescriptionOne"></textarea>
-        <span asp-validation-for="DescriptionOne"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="DescriptionTwo">DescriptionTwo</label>
-        <textarea class="form-control" asp-for="DescriptionTwo"></textarea>
-        <span asp-validation-for="DescriptionTwo"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="DescriptionThree">DescriptionThree</label>
-       <textarea class="form-control" asp-for="DescriptionThree"></textarea>
-        <span asp-validation-for="DescriptionThree"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Paragraph">Paragraph</label>
-        <textarea class="form-control" asp-for="Paragraph"></textarea>
-        <span asp-validation-for="Paragraph"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="MainPhoto">MainPhoto</label>
-        <input class="form-control" asp-for="MainPhoto">
-        <span asp-validation-for="MainPhoto"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Photo">Photo</label>
-        <input asp-for="Photo" />
-        <span asp-validation-for="Photo"></span>
-    </div>
-    <button type="submit" class="btn btn-primary">Create</button>
-    <a class="btn btn-danger" asp-action="index" asp-controller="blog">Cancel</a>
-</form>
 
 
+<div class="bg-secondary rounded h-100 p-4">
+    <h1 style="color:#eb1616">CREATE</h1>
+    <form enctype="multipart/form-data" asp-action="create" asp-controller="blog" method="post">
+        <div class="form-floating mb-3">
+            <input class="form-control" asp-for="Title" />
+            <label asp-for="Title">Title</label>
+            <span asp-validation-for="Title"></span>
+        </div>
 
+        <div class="form-floating mb-3">
+            <input class="form-control" asp-for="DetailTitle" />
+            <label asp-for="DetailTitle">DetailTitle</label>
+            <span asp-validation-for="DetailTitle"></span>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">Text</span>
+            <textarea class="form-control" asp-for="Text" aria-label="With textarea" style="height: 38px;"></textarea>
+            <label style="display:none" asp-for="Text"></label>
+            <span asp-validation-for="Text"></span>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">DescriptionOne</span>
+            <textarea class="form-control" asp-for="DescriptionOne" aria-label="With textarea" style="height: 38px;"></textarea>
+            <label style="display:none" asp-for="DescriptionOne"></label>
+            <span asp-validation-for="DescriptionOne"></span>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">DescriptionTwo</span>
+            <textarea class="form-control" asp-for="DescriptionTwo" aria-label="With textarea" style="height: 38px;"></textarea>
+            <label style="display:none" asp-for="DescriptionTwo"></label>
+            <span asp-validation-for="DescriptionTwo"></span>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">DescriptionThree</span>
+            <textarea class="form-control" asp-for="DescriptionThree" aria-label="With textarea" style="height: 38px;"></textarea>
+            <label style="display:none" asp-for="DescriptionThree"></label>
+            <span asp-validation-for="DescriptionThree"></span>
+        </div>
+           <div class="input-group mb-3">
+            <span class="input-group-text">Paragraph</span>
+            <textarea class="form-control" asp-for="Paragraph" aria-label="With textarea" style="height: 38px;"></textarea>
+            <label style="display:none" asp-for="Paragraph"></label>
+            <span asp-validation-for="Paragraph"></span>
+        </div>
+        <div class="form-floating mb-3">
+            <input class="form-control" asp-for="Time">
+            <label asp-for="Time">Time</label>
+            <span asp-validation-for="Time"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label" asp-for="MainPhoto">MainPhoto</label>
+            <input class="form-control bg-dark" class="form-control" asp-for="MainPhoto">
+            <span asp-validation-for="MainPhoto"></span>
+        </div>
+            <div class="mb-3">
+            <label class="form-label" asp-for="Photo">Photo</label>
+            <input class="form-control bg-dark" class="form-control" asp-for="Photo">
+            <span asp-validation-for="Photo"></span>
+        </div>
+
+        <button type="submit" class="btn btn-success m-2">Create</button>
+        <a class="btn btn-primary m-2" asp-action="index" asp-controller="blog">Cancel</a>
+    </form>
+</div>

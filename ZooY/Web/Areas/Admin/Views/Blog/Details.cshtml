@@ -2,48 +2,39 @@
 @using Web.Areas.Admin.ViewModels.Blog
 @model BlogDetailsVM
 
-<div class="col-lg-12 grid-margin ">
-    <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">Blog Details</h4>
-            <div class="table-responsive">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Id</th>
-                            <th>Title</th>
-                            <th>DetailTitle</th>
-                            <th>Text</th>
-                            <th>DescriptionOne</th>
-                            <th>DescriptionTwo</th>
-                            <th>DescriptionThree</th>
-                            <th>Paragraph</th>
-                            <th>Time</th>
-                            <th>MainPhoto</th>
-                            <th>Photo</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>@Model.Id</td>
-                            <td>@Model.Title</td>
-                            <td>@Model.DetailTitle</td>
-                            <td>@Model.Text</td>
-                            <td>@Model.DescriptionOne</td>
-                            <td>@Model.DescriptionTwo</td>
-                            <td>@Model.DescriptionThree</td>
-                            <td>@Model.Paragraph</td>
-                            <td>@Model.Time</td>
-                            <td><img src="~/assets/img/@Model.MainPhotoName" /></td>
-                            <td><img src="~/assets/img/@Model.PhotoName" /></td>
-                        </tr>
-                    </tbody>
-                </table>
 
-                
-                <a class="btn btn-danger" asp-action="index" asp-controller="blog">Cancel</a>
 
-            </div>
-        </div>
-    </div>
-</div>
+
+<h3>Id:</h3>
+<p>@Model.Id</p>
+
+<h3>Title:</h3>
+<p>@Model.Title</p>
+
+<h3>DetailTitle:</h3>
+<p>@Model.DetailTitle</p>
+
+<h3>Text:</h3>
+<p>@Model.Text</p>
+
+<h3>DescriptionOne:</h3>
+<p>@Model.DescriptionOne</p>
+
+<h3>DescriptionTwo:</h3>
+<p>@Model.DescriptionTwo</p>
+
+<h3>DescriptionThree:</h3>
+<p>@Model.DescriptionThree</p>
+
+<h3>Paragraph:</h3>
+<p>@Model.Paragraph</p>
+
+<h3>Time:</h3>
+<p>@Model.Time</p>
+
+
+
+<h3>Photo:</h3>
+<p><img src="~/assets/img/@Model.MainPhotoName" /></p>
+
+<a class="btn btn-primary m-2" asp-action="index" asp-controller="blog">Cancel</a>

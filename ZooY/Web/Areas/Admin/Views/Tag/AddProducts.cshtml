@@ -9,6 +9,7 @@
         <select multiple asp-for="ProductsIds" asp-items="Model.Products"></select>
     </div>
     <div class="form-group">
-        <button class="btn btn-primary">Add</button>
+        <button class="btn btn-success">Add</button>
+        <a class="btn btn-primary m-2" asp-action="index" asp-controller="tag">Cancel</a>
     </div>
 </form>

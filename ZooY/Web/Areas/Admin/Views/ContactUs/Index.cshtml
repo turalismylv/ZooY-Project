@@ -1,0 +1,66 @@
+﻿@using Core.Constans
+@using Core.Constants
+
+@using Web.Areas.Admin.ViewModels.ContactUs
+@model ContactUsIndexVM
+
+
+
+
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>FullName</th>
+            <th>Email</th>
+            <th>Subject</th>
+            <th>Status</th>
+            <th>CreateAt</th>
+            <th>ModifiedAt</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>Id</th>
+            <th>FullName</th>
+            <th>Email</th>
+            <th>Subject</th>
+            <th>Status</th>
+            <th>CreateAt</th>
+            <th>ModifiedAt</th>
+            <th>Actions</th>
+        </tr>
+    </tfoot>
+    <tbody>
+
+        @foreach (var contactUs in Model.ContactUs)
+        {
+            <tr>
+                <td>@contactUs.Id</td>
+                <td>@contactUs.FullName</td>
+                <td>@contactUs.Email</td>
+                <td>@contactUs.Subject</td>
+                <td>@contactUs.Status</td>
+                <td>@contactUs.CreatedAt.ToShortDateString()</td>
+                <td>@contactUs.ModifiedAt.ToShortDateString()</td>
+
+                <td>
+                    @if (!(contactUs.Status == ContactStatus.Oxundu))
+                    {
+                        <form method="post" asp-action="ChangeStatus" asp-controller="contactus" asp-route-id="@contactUs.Id">
+                            <button type="submit" class="btn btn-warning">Oxundu</button>
+                        </form>
+                    }
+
+                    <form method="post" asp-action="delete" asp-controller="contactus" asp-route-id="@contactUs.Id">
+                        <a class="btn btn-info" asp-action="details" asp-controller="contactus" asp-route-id="@contactUs.Id">Info</a>
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

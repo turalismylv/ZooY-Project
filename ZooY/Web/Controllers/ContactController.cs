@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using Web.Services.Abstract;
+using Web.ViewModels.Contact;
 
 namespace Web.Controllers
 {
@@ -24,6 +25,14 @@ namespace Web.Controllers
             return View(model);
         }
 
+
+        [HttpPost]
+        public async Task<IActionResult> Index(ContactIndexVM model)
+        {
+            var isSucceeded = await _contactService.CreateAsync(model);
+            if (isSucceeded) return RedirectToAction(nameof(Index));
+            return View(model);
+        }
 
     }
 }

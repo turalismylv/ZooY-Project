@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XNHx18XVbeDb91pcVUan6gD64rqdJeUz5ekB9bNaPENoqNAYltJYl9aPaEVD/OQaJLBgVCdzrsCaw4+uwuBUFw==",
+  "dgSpecHash": "Td3Y/q0YBJgpnDTyNW+pD78Xrwqh7OZmzeVBcO7fcd6vKy8nWWnZ5hGc5M9n3FBY4PA15DODOLVj0KegMNbK+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tursl\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.9\\microsoft.aspnetcore.cryptography.internal.6.0.9.nupkg.sha512",
     "C:\\Users\\tursl\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.9\\microsoft.aspnetcore.cryptography.keyderivation.6.0.9.nupkg.sha512",

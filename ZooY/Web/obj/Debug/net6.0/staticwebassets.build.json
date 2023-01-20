@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "i4xVx6NANjt8BlpstHdrc6ZVmM164moK9dC1jCd3bGk=",
+  "Hash": "gsIZ6L28mBCgm4R+BswAPkqNfbcZTvQhDaUz8yS5O3U=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Web\\wwwroot",
       "Source": "Web",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Web.styles.css",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Web.styles.css",
       "SourceId": "Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Web",
       "RelativePath": "Web.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Web.styles.css"
+      "OriginalItemSpec": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Web.styles.css"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Web.bundle.scp.css",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Web.bundle.scp.css",
       "SourceId": "Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Web",
       "RelativePath": "Web.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Web.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Web.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\css\\bootstrap.min.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\css\\style.css",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\css\\style.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/css/style.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\img\\testimonial-1.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\img\\testimonial-1.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/img/testimonial-1.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\testimonial-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\img\\testimonial-2.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\img\\testimonial-2.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/img/testimonial-2.jpg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\testimonial-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\img\\user.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\img\\user.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/img/user.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\img\\user.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\js\\main.js",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\js\\main.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/js/main.js",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\chart\\chart.min.js",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\chart\\chart.min.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/chart/chart.min.js",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\chart\\chart.min.js"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\easing\\easing.js",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\easing\\easing.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/easing/easing.js",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\easing\\easing.js"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\easing\\easing.min.js",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\easing\\easing.min.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/easing/easing.min.js",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\easing\\easing.min.js"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/owlcarousel/assets/ajax-loader.gif",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/owlcarousel/assets/owl.carousel.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/owlcarousel/assets/owl.carousel.min.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/owlcarousel/assets/owl.theme.default.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/owlcarousel/assets/owl.theme.default.min.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/owlcarousel/assets/owl.theme.green.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/owlcarousel/assets/owl.theme.green.min.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/owlcarousel/assets/owl.video.play.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\LICENSE",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\LICENSE",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/owlcarousel/LICENSE",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\owlcarousel\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\owl.carousel.js",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\owl.carousel.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/owlcarousel/owl.carousel.js",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\owlcarousel\\owl.carousel.min.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/owlcarousel/owl.carousel.min.js",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\tempusdominus\\js\\moment.min.js",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\tempusdominus\\js\\moment.min.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/tempusdominus/js/moment.min.js",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\tempusdominus\\js\\moment.min.js"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\tempusdominus\\js\\moment-timezone.min.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/tempusdominus/js/moment-timezone.min.js",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\tempusdominus\\js\\moment-timezone.min.js"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.js",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\waypoints\\links.php",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\waypoints\\links.php",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/waypoints/links.php",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\waypoints\\links.php"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\waypoints\\waypoints.min.js",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\admin\\assets\\lib\\waypoints\\waypoints.min.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "admin/assets/lib/waypoints/waypoints.min.js",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\assets\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\css\\slick.css",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\css\\slick.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/css/slick.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\slick.css"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\css\\slick-theme.css",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\css\\slick-theme.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/css/slick-theme.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\slick-theme.css"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\css\\style.css",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\css\\style.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/css/style.css",
       "AssetKind": "All",
@@ -578,10 +578,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\038cdc2f-bb51-4690-8281-e100dc8f5eb8_blog-listing-img2-370x266.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\00ff224c-9ca4-4cca-8eab-a0420f871875_main slider.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/00ff224c-9ca4-4cca-8eab-a0420f871875_main slider.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\00ff224c-9ca4-4cca-8eab-a0420f871875_main slider.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\038cdc2f-bb51-4690-8281-e100dc8f5eb8_blog-listing-img2-370x266.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/038cdc2f-bb51-4690-8281-e100dc8f5eb8_blog-listing-img2-370x266.jpg",
       "AssetKind": "All",
@@ -595,10 +612,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\038cdc2f-bb51-4690-8281-e100dc8f5eb8_blog-listing-img2-370x266.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\09841590-974f-4759-b13f-5898ea426628_tProduct02-268x240.png",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\075ee17d-c8f9-4cf0-8ad3-33816c99306a_blog-listing-img2-370x266.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/075ee17d-c8f9-4cf0-8ad3-33816c99306a_blog-listing-img2-370x266.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\075ee17d-c8f9-4cf0-8ad3-33816c99306a_blog-listing-img2-370x266.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\09841590-974f-4759-b13f-5898ea426628_tProduct02-268x240.png",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/09841590-974f-4759-b13f-5898ea426628_tProduct02-268x240.png",
       "AssetKind": "All",
@@ -612,10 +646,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\09841590-974f-4759-b13f-5898ea426628_tProduct02-268x240.png"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\12c7ffe1-5c39-41d4-a68d-6db03482181c_blog-listing-img3-370x266.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\0e70bad4-f93c-4778-a448-3b19da8ec3b0_lighting.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/0e70bad4-f93c-4778-a448-3b19da8ec3b0_lighting.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\0e70bad4-f93c-4778-a448-3b19da8ec3b0_lighting.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\12c7ffe1-5c39-41d4-a68d-6db03482181c_blog-listing-img3-370x266.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/12c7ffe1-5c39-41d4-a68d-6db03482181c_blog-listing-img3-370x266.jpg",
       "AssetKind": "All",
@@ -629,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\12c7ffe1-5c39-41d4-a68d-6db03482181c_blog-listing-img3-370x266.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\15e77fc3-116f-4fd2-a02f-313692e6d20b_6f64684f40a84f46cf5bb9372cc1a1e4.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\15e77fc3-116f-4fd2-a02f-313692e6d20b_6f64684f40a84f46cf5bb9372cc1a1e4.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/15e77fc3-116f-4fd2-a02f-313692e6d20b_6f64684f40a84f46cf5bb9372cc1a1e4.jpg",
       "AssetKind": "All",
@@ -646,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\15e77fc3-116f-4fd2-a02f-313692e6d20b_6f64684f40a84f46cf5bb9372cc1a1e4.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\22c3f0f5-f8ec-49a1-bdd1-b01c76c90d69_main slider.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\22c3f0f5-f8ec-49a1-bdd1-b01c76c90d69_main slider.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/22c3f0f5-f8ec-49a1-bdd1-b01c76c90d69_main slider.jpg",
       "AssetKind": "All",
@@ -663,10 +714,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\22c3f0f5-f8ec-49a1-bdd1-b01c76c90d69_main slider.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\2433e607-a0c4-496b-a5f5-cf1d69474f89_signature.png",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\2321bd00-c5b9-4605-b148-136d1978f5e4_audi.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/2321bd00-c5b9-4605-b148-136d1978f5e4_audi.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\2321bd00-c5b9-4605-b148-136d1978f5e4_audi.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\2433e607-a0c4-496b-a5f5-cf1d69474f89_signature.png",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/2433e607-a0c4-496b-a5f5-cf1d69474f89_signature.png",
       "AssetKind": "All",
@@ -680,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\2433e607-a0c4-496b-a5f5-cf1d69474f89_signature.png"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\281bbc30-cee2-4090-a74e-0c01c7be48d2_deal-bg.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\281bbc30-cee2-4090-a74e-0c01c7be48d2_deal-bg.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/281bbc30-cee2-4090-a74e-0c01c7be48d2_deal-bg.jpg",
       "AssetKind": "All",
@@ -697,10 +765,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\281bbc30-cee2-4090-a74e-0c01c7be48d2_deal-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\2b7442da-4357-4980-b3cd-5cdd18daac94_Turalcv.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\28b223eb-a1a9-483c-82ce-f636885ec598_priusqezza.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/28b223eb-a1a9-483c-82ce-f636885ec598_priusqezza.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\28b223eb-a1a9-483c-82ce-f636885ec598_priusqezza.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\2b7442da-4357-4980-b3cd-5cdd18daac94_Turalcv.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/2b7442da-4357-4980-b3cd-5cdd18daac94_Turalcv.jpg",
       "AssetKind": "All",
@@ -714,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\2b7442da-4357-4980-b3cd-5cdd18daac94_Turalcv.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\2eb152c2-ea95-4e49-aa43-ecc63f833f82_blog-img03-769x376.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\2eb152c2-ea95-4e49-aa43-ecc63f833f82_blog-img03-769x376.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/2eb152c2-ea95-4e49-aa43-ecc63f833f82_blog-img03-769x376.jpg",
       "AssetKind": "All",
@@ -731,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\2eb152c2-ea95-4e49-aa43-ecc63f833f82_blog-img03-769x376.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\309045d9-4f9c-45f9-a122-40e6cddf4081_body-part.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\309045d9-4f9c-45f9-a122-40e6cddf4081_body-part.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/309045d9-4f9c-45f9-a122-40e6cddf4081_body-part.jpg",
       "AssetKind": "All",
@@ -748,10 +833,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\309045d9-4f9c-45f9-a122-40e6cddf4081_body-part.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\357dcb0e-d0fe-4a6e-b1ff-67da3ae23f40_repair-parts.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\34dc39f6-b43b-44c1-8d58-d836c96cba10_prius.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/34dc39f6-b43b-44c1-8d58-d836c96cba10_prius.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\34dc39f6-b43b-44c1-8d58-d836c96cba10_prius.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\357dcb0e-d0fe-4a6e-b1ff-67da3ae23f40_repair-parts.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/357dcb0e-d0fe-4a6e-b1ff-67da3ae23f40_repair-parts.jpg",
       "AssetKind": "All",
@@ -765,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\357dcb0e-d0fe-4a6e-b1ff-67da3ae23f40_repair-parts.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\3d9f08d3-c41b-44fb-ae56-492308cfa3da_camariiiii.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\3d9f08d3-c41b-44fb-ae56-492308cfa3da_camariiiii.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/3d9f08d3-c41b-44fb-ae56-492308cfa3da_camariiiii.jpg",
       "AssetKind": "All",
@@ -782,10 +884,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\3d9f08d3-c41b-44fb-ae56-492308cfa3da_camariiiii.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\4530c8db-613f-44ab-8aa9-9abb178fc9fc_toyotabrand.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\3ea4ef91-7447-468e-9d7d-d832522dd863_signature.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/3ea4ef91-7447-468e-9d7d-d832522dd863_signature.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\3ea4ef91-7447-468e-9d7d-d832522dd863_signature.png"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\4530c8db-613f-44ab-8aa9-9abb178fc9fc_toyotabrand.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/4530c8db-613f-44ab-8aa9-9abb178fc9fc_toyotabrand.jpg",
       "AssetKind": "All",
@@ -799,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\4530c8db-613f-44ab-8aa9-9abb178fc9fc_toyotabrand.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\4af9202a-88af-41c0-a01b-761aa8a19d6a_chevylogo.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\4af9202a-88af-41c0-a01b-761aa8a19d6a_chevylogo.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/4af9202a-88af-41c0-a01b-761aa8a19d6a_chevylogo.jpg",
       "AssetKind": "All",
@@ -816,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\4af9202a-88af-41c0-a01b-761aa8a19d6a_chevylogo.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\50a20e6d-0bb3-4e47-9fac-28c647240436_blog-listing-img2-370x266.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\50a20e6d-0bb3-4e47-9fac-28c647240436_blog-listing-img2-370x266.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/50a20e6d-0bb3-4e47-9fac-28c647240436_blog-listing-img2-370x266.jpg",
       "AssetKind": "All",
@@ -833,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\50a20e6d-0bb3-4e47-9fac-28c647240436_blog-listing-img2-370x266.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\532517c3-fbb9-4a05-87d5-d0873c9dcb3c_product2.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\532517c3-fbb9-4a05-87d5-d0873c9dcb3c_product2.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/532517c3-fbb9-4a05-87d5-d0873c9dcb3c_product2.jpg",
       "AssetKind": "All",
@@ -850,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\532517c3-fbb9-4a05-87d5-d0873c9dcb3c_product2.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\5bc7adae-fd2a-4e3c-8ee9-b8e5b827e1d6_tProduct02-268x240.png",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\5bc7adae-fd2a-4e3c-8ee9-b8e5b827e1d6_tProduct02-268x240.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/5bc7adae-fd2a-4e3c-8ee9-b8e5b827e1d6_tProduct02-268x240.png",
       "AssetKind": "All",
@@ -867,10 +986,44 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\5bc7adae-fd2a-4e3c-8ee9-b8e5b827e1d6_tProduct02-268x240.png"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\6225aad0-eb0c-4ca1-a078-768f6e93d0f3_performance-parts.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\5d2b8864-47bf-46d7-b45e-08e3a9aa1154_toyotabrand.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/5d2b8864-47bf-46d7-b45e-08e3a9aa1154_toyotabrand.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\5d2b8864-47bf-46d7-b45e-08e3a9aa1154_toyotabrand.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\5d2ce49a-49f4-47d4-b032-b5a76e181dc6_about-img1-602x429.png",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/5d2ce49a-49f4-47d4-b032-b5a76e181dc6_about-img1-602x429.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\5d2ce49a-49f4-47d4-b032-b5a76e181dc6_about-img1-602x429.png"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\6225aad0-eb0c-4ca1-a078-768f6e93d0f3_performance-parts.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/6225aad0-eb0c-4ca1-a078-768f6e93d0f3_performance-parts.jpg",
       "AssetKind": "All",
@@ -884,10 +1037,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\6225aad0-eb0c-4ca1-a078-768f6e93d0f3_performance-parts.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\67fa34a2-c1c1-46a1-82d3-e4ba83a78373_product-detail-img-543x498.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\63f4e9a0-6cec-4133-a2f5-01b0cbb539bf_body-part.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/63f4e9a0-6cec-4133-a2f5-01b0cbb539bf_body-part.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\63f4e9a0-6cec-4133-a2f5-01b0cbb539bf_body-part.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\67fa34a2-c1c1-46a1-82d3-e4ba83a78373_product-detail-img-543x498.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/67fa34a2-c1c1-46a1-82d3-e4ba83a78373_product-detail-img-543x498.jpg",
       "AssetKind": "All",
@@ -901,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\67fa34a2-c1c1-46a1-82d3-e4ba83a78373_product-detail-img-543x498.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\69978224-2a10-421d-bfbc-194bd2620cb6_WIN_20221014_23_05_34_Pro.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\69978224-2a10-421d-bfbc-194bd2620cb6_WIN_20221014_23_05_34_Pro.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/69978224-2a10-421d-bfbc-194bd2620cb6_WIN_20221014_23_05_34_Pro.jpg",
       "AssetKind": "All",
@@ -918,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\69978224-2a10-421d-bfbc-194bd2620cb6_WIN_20221014_23_05_34_Pro.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\6a9cf502-273f-49ca-97f6-e24b71534cb1_blog-detail-img2.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\6a9cf502-273f-49ca-97f6-e24b71534cb1_blog-detail-img2.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/6a9cf502-273f-49ca-97f6-e24b71534cb1_blog-detail-img2.jpg",
       "AssetKind": "All",
@@ -935,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\6a9cf502-273f-49ca-97f6-e24b71534cb1_blog-detail-img2.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\6dec52fd-9d62-465b-b894-597eccf928e7_alacamaro.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\6dec52fd-9d62-465b-b894-597eccf928e7_alacamaro.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/6dec52fd-9d62-465b-b894-597eccf928e7_alacamaro.jpg",
       "AssetKind": "All",
@@ -952,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\6dec52fd-9d62-465b-b894-597eccf928e7_alacamaro.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\6f12049c-9dd7-4746-8ce2-7d800d3be272_priusqezza.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\6f12049c-9dd7-4746-8ce2-7d800d3be272_priusqezza.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/6f12049c-9dd7-4746-8ce2-7d800d3be272_priusqezza.jpg",
       "AssetKind": "All",
@@ -969,10 +1139,44 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\6f12049c-9dd7-4746-8ce2-7d800d3be272_priusqezza.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\7858852b-ad87-47d9-bfb1-58ef293eb742_WIN_20221010_17_23_13_Pro.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\76bb8dcb-ec55-40f3-a01f-e47e8de0fb77_Emil 3.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/76bb8dcb-ec55-40f3-a01f-e47e8de0fb77_Emil 3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\76bb8dcb-ec55-40f3-a01f-e47e8de0fb77_Emil 3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\783fb6f9-3765-492f-a981-76a99ffd671e_Turalcv.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/783fb6f9-3765-492f-a981-76a99ffd671e_Turalcv.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\783fb6f9-3765-492f-a981-76a99ffd671e_Turalcv.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\7858852b-ad87-47d9-bfb1-58ef293eb742_WIN_20221010_17_23_13_Pro.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/7858852b-ad87-47d9-bfb1-58ef293eb742_WIN_20221010_17_23_13_Pro.jpg",
       "AssetKind": "All",
@@ -986,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\7858852b-ad87-47d9-bfb1-58ef293eb742_WIN_20221010_17_23_13_Pro.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\796e5e4a-9c03-4cc6-8d5f-b96bdb12e165_ford.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\796e5e4a-9c03-4cc6-8d5f-b96bdb12e165_ford.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/796e5e4a-9c03-4cc6-8d5f-b96bdb12e165_ford.jpg",
       "AssetKind": "All",
@@ -1003,10 +1207,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\796e5e4a-9c03-4cc6-8d5f-b96bdb12e165_ford.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\7cf0c511-9d27-45de-b836-cca8c2093b7d_camaro_slider_50.png",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\7c61a771-81dc-4e06-b6ae-b4d10a26daf3_bmw.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/7c61a771-81dc-4e06-b6ae-b4d10a26daf3_bmw.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\7c61a771-81dc-4e06-b6ae-b4d10a26daf3_bmw.png"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\7cf0c511-9d27-45de-b836-cca8c2093b7d_camaro_slider_50.png",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/7cf0c511-9d27-45de-b836-cca8c2093b7d_camaro_slider_50.png",
       "AssetKind": "All",
@@ -1020,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\7cf0c511-9d27-45de-b836-cca8c2093b7d_camaro_slider_50.png"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\7d43729b-d112-4928-b80a-4e0a42002572_6f64684f40a84f46cf5bb9372cc1a1e4.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\7d43729b-d112-4928-b80a-4e0a42002572_6f64684f40a84f46cf5bb9372cc1a1e4.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/7d43729b-d112-4928-b80a-4e0a42002572_6f64684f40a84f46cf5bb9372cc1a1e4.jpg",
       "AssetKind": "All",
@@ -1037,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\7d43729b-d112-4928-b80a-4e0a42002572_6f64684f40a84f46cf5bb9372cc1a1e4.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\7d66b19f-d6f5-4ddf-805f-882bc9d12c21_audi.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\7d66b19f-d6f5-4ddf-805f-882bc9d12c21_audi.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/7d66b19f-d6f5-4ddf-805f-882bc9d12c21_audi.jpg",
       "AssetKind": "All",
@@ -1054,10 +1275,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\7d66b19f-d6f5-4ddf-805f-882bc9d12c21_audi.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\82578c3c-eb6e-412a-9951-7aa71d2eb334_blog-detail-img2.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\7e328d35-bd21-43ce-88c0-52a65b10593a_product-detail-img-543x498.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/7e328d35-bd21-43ce-88c0-52a65b10593a_product-detail-img-543x498.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\7e328d35-bd21-43ce-88c0-52a65b10593a_product-detail-img-543x498.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\82578c3c-eb6e-412a-9951-7aa71d2eb334_blog-detail-img2.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/82578c3c-eb6e-412a-9951-7aa71d2eb334_blog-detail-img2.jpg",
       "AssetKind": "All",
@@ -1071,10 +1309,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\82578c3c-eb6e-412a-9951-7aa71d2eb334_blog-detail-img2.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\830743e5-b929-42a8-882f-19626093ead7_priusqezza.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\8268dc7b-f27e-4df6-8347-200667077855_mercedes-benz-car-logo-3d-model-obj-mtl-fbx-ztl.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/8268dc7b-f27e-4df6-8347-200667077855_mercedes-benz-car-logo-3d-model-obj-mtl-fbx-ztl.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\8268dc7b-f27e-4df6-8347-200667077855_mercedes-benz-car-logo-3d-model-obj-mtl-fbx-ztl.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\830743e5-b929-42a8-882f-19626093ead7_priusqezza.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/830743e5-b929-42a8-882f-19626093ead7_priusqezza.jpg",
       "AssetKind": "All",
@@ -1088,10 +1343,44 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\830743e5-b929-42a8-882f-19626093ead7_priusqezza.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\8cdfdfb8-72b3-4d5a-987c-2dc132fde7c6_wheels-tires.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\8632c37f-2145-43cf-9d69-7e8301bd0a88_wheels-tires.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/8632c37f-2145-43cf-9d69-7e8301bd0a88_wheels-tires.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\8632c37f-2145-43cf-9d69-7e8301bd0a88_wheels-tires.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\896e7df4-889a-4d04-b799-ff074a545491_find-img-710x539.png",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/896e7df4-889a-4d04-b799-ff074a545491_find-img-710x539.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\896e7df4-889a-4d04-b799-ff074a545491_find-img-710x539.png"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\8cdfdfb8-72b3-4d5a-987c-2dc132fde7c6_wheels-tires.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/8cdfdfb8-72b3-4d5a-987c-2dc132fde7c6_wheels-tires.jpg",
       "AssetKind": "All",
@@ -1105,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\8cdfdfb8-72b3-4d5a-987c-2dc132fde7c6_wheels-tires.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\92c67823-21e9-4277-ab1d-26cf3892c381_priusuqeza.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\92c67823-21e9-4277-ab1d-26cf3892c381_priusuqeza.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/92c67823-21e9-4277-ab1d-26cf3892c381_priusuqeza.jpg",
       "AssetKind": "All",
@@ -1122,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\92c67823-21e9-4277-ab1d-26cf3892c381_priusuqeza.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\964c7d30-d97b-4244-964a-e4c599bad706_range main.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\964c7d30-d97b-4244-964a-e4c599bad706_range main.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/964c7d30-d97b-4244-964a-e4c599bad706_range main.jpg",
       "AssetKind": "All",
@@ -1139,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\964c7d30-d97b-4244-964a-e4c599bad706_range main.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\97057518-3714-4078-b913-c9fe2ab5400e_blog-listing-img1-389x343.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\97057518-3714-4078-b913-c9fe2ab5400e_blog-listing-img1-389x343.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/97057518-3714-4078-b913-c9fe2ab5400e_blog-listing-img1-389x343.jpg",
       "AssetKind": "All",
@@ -1156,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\97057518-3714-4078-b913-c9fe2ab5400e_blog-listing-img1-389x343.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\9903c649-7ea1-41d6-9482-2bed46246478_toyotabrand.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\9903c649-7ea1-41d6-9482-2bed46246478_toyotabrand.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/9903c649-7ea1-41d6-9482-2bed46246478_toyotabrand.jpg",
       "AssetKind": "All",
@@ -1173,10 +1462,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\9903c649-7ea1-41d6-9482-2bed46246478_toyotabrand.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\9dc54f75-4c07-4bde-87be-11b1103d790c_lighting.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\9b86bd24-e127-48c7-9112-3ef6c83f6028_performance-parts.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/9b86bd24-e127-48c7-9112-3ef6c83f6028_performance-parts.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\9b86bd24-e127-48c7-9112-3ef6c83f6028_performance-parts.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\9dc54f75-4c07-4bde-87be-11b1103d790c_lighting.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/9dc54f75-4c07-4bde-87be-11b1103d790c_lighting.jpg",
       "AssetKind": "All",
@@ -1190,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\9dc54f75-4c07-4bde-87be-11b1103d790c_lighting.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\9eda94de-fd61-4211-8aae-80f00deeb9ad_blog-detail-img2.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\9eda94de-fd61-4211-8aae-80f00deeb9ad_blog-detail-img2.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/9eda94de-fd61-4211-8aae-80f00deeb9ad_blog-detail-img2.jpg",
       "AssetKind": "All",
@@ -1207,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\9eda94de-fd61-4211-8aae-80f00deeb9ad_blog-detail-img2.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\9f7ba0bf-51d9-4881-a0c7-3e24cbf75511_main slider.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\9f7ba0bf-51d9-4881-a0c7-3e24cbf75511_main slider.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/9f7ba0bf-51d9-4881-a0c7-3e24cbf75511_main slider.jpg",
       "AssetKind": "All",
@@ -1224,10 +1530,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\9f7ba0bf-51d9-4881-a0c7-3e24cbf75511_main slider.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\a1b3be60-477d-446d-aea0-4868e8e8fa65_blog-listing-img3-370x266.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\a088d075-0704-4619-b8f2-808d6e165750_Mirgubad.jpeg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/a088d075-0704-4619-b8f2-808d6e165750_Mirgubad.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\a088d075-0704-4619-b8f2-808d6e165750_Mirgubad.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\a1b3be60-477d-446d-aea0-4868e8e8fa65_blog-listing-img3-370x266.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/a1b3be60-477d-446d-aea0-4868e8e8fa65_blog-listing-img3-370x266.jpg",
       "AssetKind": "All",
@@ -1241,10 +1564,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\a1b3be60-477d-446d-aea0-4868e8e8fa65_blog-listing-img3-370x266.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\b0732696-f572-4cd9-9046-5f697ff95223_2022-land-rover-range-rover-velar-side-view-carbuzz-877083-1600.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\ac740101-934f-4660-ae4c-291429aef2c1_about-img1-602x429.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/ac740101-934f-4660-ae4c-291429aef2c1_about-img1-602x429.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\ac740101-934f-4660-ae4c-291429aef2c1_about-img1-602x429.png"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\b0732696-f572-4cd9-9046-5f697ff95223_2022-land-rover-range-rover-velar-side-view-carbuzz-877083-1600.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/b0732696-f572-4cd9-9046-5f697ff95223_2022-land-rover-range-rover-velar-side-view-carbuzz-877083-1600.jpg",
       "AssetKind": "All",
@@ -1258,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\b0732696-f572-4cd9-9046-5f697ff95223_2022-land-rover-range-rover-velar-side-view-carbuzz-877083-1600.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\b1bdd62f-d872-405f-87a0-7330ccb08f68_blog-listing-img1-389x343.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\b1bdd62f-d872-405f-87a0-7330ccb08f68_blog-listing-img1-389x343.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/b1bdd62f-d872-405f-87a0-7330ccb08f68_blog-listing-img1-389x343.jpg",
       "AssetKind": "All",
@@ -1275,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\b1bdd62f-d872-405f-87a0-7330ccb08f68_blog-listing-img1-389x343.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\bb8a7941-cdfb-46dd-b1b1-d1912411e7d6_blog-img02-769x376.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\bb8a7941-cdfb-46dd-b1b1-d1912411e7d6_blog-img02-769x376.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/bb8a7941-cdfb-46dd-b1b1-d1912411e7d6_blog-img02-769x376.jpg",
       "AssetKind": "All",
@@ -1292,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\bb8a7941-cdfb-46dd-b1b1-d1912411e7d6_blog-img02-769x376.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\bddec9f0-b07e-4b49-8035-5cccf798909d_Mirgubad.jpeg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\bddec9f0-b07e-4b49-8035-5cccf798909d_Mirgubad.jpeg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/bddec9f0-b07e-4b49-8035-5cccf798909d_Mirgubad.jpeg",
       "AssetKind": "All",
@@ -1309,10 +1649,78 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\bddec9f0-b07e-4b49-8035-5cccf798909d_Mirgubad.jpeg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\d1b9e8a0-738a-4769-abb2-f2167db393a4_product2.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\c026cf01-7bce-4640-a039-37e5acc972e8_deal-bg.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/c026cf01-7bce-4640-a039-37e5acc972e8_deal-bg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\c026cf01-7bce-4640-a039-37e5acc972e8_deal-bg.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\c612f7c9-92e2-403c-9850-f825cc54635e_ford.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/c612f7c9-92e2-403c-9850-f825cc54635e_ford.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\c612f7c9-92e2-403c-9850-f825cc54635e_ford.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\c6b55e7a-46d8-44cf-b654-47ec8ff159b7_baylar.jpeg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/c6b55e7a-46d8-44cf-b654-47ec8ff159b7_baylar.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\c6b55e7a-46d8-44cf-b654-47ec8ff159b7_baylar.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\ce5df306-5f8f-4394-bee1-eed0f311507b_blog-img02-769x376.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/ce5df306-5f8f-4394-bee1-eed0f311507b_blog-img02-769x376.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\ce5df306-5f8f-4394-bee1-eed0f311507b_blog-img02-769x376.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\d1b9e8a0-738a-4769-abb2-f2167db393a4_product2.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/d1b9e8a0-738a-4769-abb2-f2167db393a4_product2.jpg",
       "AssetKind": "All",
@@ -1326,10 +1734,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\d1b9e8a0-738a-4769-abb2-f2167db393a4_product2.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\d9f361d9-3f6c-4cbb-bafb-5d126721c096_blog-img02-769x376.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\d23b82a9-508a-4a39-be0f-285ee683b8ed_repair-parts.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/d23b82a9-508a-4a39-be0f-285ee683b8ed_repair-parts.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\d23b82a9-508a-4a39-be0f-285ee683b8ed_repair-parts.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\d9f361d9-3f6c-4cbb-bafb-5d126721c096_blog-img02-769x376.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/d9f361d9-3f6c-4cbb-bafb-5d126721c096_blog-img02-769x376.jpg",
       "AssetKind": "All",
@@ -1343,10 +1768,44 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\d9f361d9-3f6c-4cbb-bafb-5d126721c096_blog-img02-769x376.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\df2c6d56-bad4-468f-bf07-b1946ed7c13b_range.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\dc8c5965-1b70-48e8-a12b-d0b541f66c6e_performance-parts.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/dc8c5965-1b70-48e8-a12b-d0b541f66c6e_performance-parts.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\dc8c5965-1b70-48e8-a12b-d0b541f66c6e_performance-parts.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\de0e8675-f7b2-4aa8-8740-69708b76bc50_product2.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/de0e8675-f7b2-4aa8-8740-69708b76bc50_product2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\de0e8675-f7b2-4aa8-8740-69708b76bc50_product2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\df2c6d56-bad4-468f-bf07-b1946ed7c13b_range.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/df2c6d56-bad4-468f-bf07-b1946ed7c13b_range.jpg",
       "AssetKind": "All",
@@ -1360,10 +1819,44 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\df2c6d56-bad4-468f-bf07-b1946ed7c13b_range.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\e427ff89-b318-4648-9124-3f7cbf3173de_blog-listing-img1-389x343.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\e03d8837-856e-4dc5-9059-6cfd0cd68c69_alacamaro.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/e03d8837-856e-4dc5-9059-6cfd0cd68c69_alacamaro.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\e03d8837-856e-4dc5-9059-6cfd0cd68c69_alacamaro.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\e1b033f1-fb2d-428d-bbf8-31ab73512ff7_chevylogo.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/e1b033f1-fb2d-428d-bbf8-31ab73512ff7_chevylogo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\e1b033f1-fb2d-428d-bbf8-31ab73512ff7_chevylogo.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\e427ff89-b318-4648-9124-3f7cbf3173de_blog-listing-img1-389x343.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/e427ff89-b318-4648-9124-3f7cbf3173de_blog-listing-img1-389x343.jpg",
       "AssetKind": "All",
@@ -1377,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\e427ff89-b318-4648-9124-3f7cbf3173de_blog-listing-img1-389x343.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\e638e5c0-03eb-4520-8cba-6fb8a0f9ba27_tProduct01-268x240.png",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\e638e5c0-03eb-4520-8cba-6fb8a0f9ba27_tProduct01-268x240.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/e638e5c0-03eb-4520-8cba-6fb8a0f9ba27_tProduct01-268x240.png",
       "AssetKind": "All",
@@ -1394,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\e638e5c0-03eb-4520-8cba-6fb8a0f9ba27_tProduct01-268x240.png"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\e6bab0a7-bedd-46ee-85aa-8470a20e3b80_mercedes-benz-car-logo-3d-model-obj-mtl-fbx-ztl.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\e6bab0a7-bedd-46ee-85aa-8470a20e3b80_mercedes-benz-car-logo-3d-model-obj-mtl-fbx-ztl.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/e6bab0a7-bedd-46ee-85aa-8470a20e3b80_mercedes-benz-car-logo-3d-model-obj-mtl-fbx-ztl.jpg",
       "AssetKind": "All",
@@ -1411,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\e6bab0a7-bedd-46ee-85aa-8470a20e3b80_mercedes-benz-car-logo-3d-model-obj-mtl-fbx-ztl.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\e89547db-ccac-4ae1-9b30-5efc855b1721_lighting.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\e89547db-ccac-4ae1-9b30-5efc855b1721_lighting.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/e89547db-ccac-4ae1-9b30-5efc855b1721_lighting.jpg",
       "AssetKind": "All",
@@ -1428,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\e89547db-ccac-4ae1-9b30-5efc855b1721_lighting.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\ea2b6192-3fda-4a57-8c1b-544c3057a841_main slider.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\ea2b6192-3fda-4a57-8c1b-544c3057a841_main slider.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/ea2b6192-3fda-4a57-8c1b-544c3057a841_main slider.jpg",
       "AssetKind": "All",
@@ -1445,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\ea2b6192-3fda-4a57-8c1b-544c3057a841_main slider.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\ebe2785b-eddb-4a1d-acab-8613df8247d4_prius.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\ebe2785b-eddb-4a1d-acab-8613df8247d4_prius.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/ebe2785b-eddb-4a1d-acab-8613df8247d4_prius.jpg",
       "AssetKind": "All",
@@ -1462,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\ebe2785b-eddb-4a1d-acab-8613df8247d4_prius.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\ee62c44c-1672-48dc-8d3d-6fed86815d65_find-img-710x539.png",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\ee62c44c-1672-48dc-8d3d-6fed86815d65_find-img-710x539.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/ee62c44c-1672-48dc-8d3d-6fed86815d65_find-img-710x539.png",
       "AssetKind": "All",
@@ -1479,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\ee62c44c-1672-48dc-8d3d-6fed86815d65_find-img-710x539.png"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\f39e05f6-0dbc-4425-9c90-701ed2de0db3_blog-img03-769x376.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\f39e05f6-0dbc-4425-9c90-701ed2de0db3_blog-img03-769x376.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/f39e05f6-0dbc-4425-9c90-701ed2de0db3_blog-img03-769x376.jpg",
       "AssetKind": "All",
@@ -1496,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\f39e05f6-0dbc-4425-9c90-701ed2de0db3_blog-img03-769x376.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\f4b93441-bef0-4c8f-8830-12e174a28461_bmw.png",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\f4b93441-bef0-4c8f-8830-12e174a28461_bmw.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/f4b93441-bef0-4c8f-8830-12e174a28461_bmw.png",
       "AssetKind": "All",
@@ -1513,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\f4b93441-bef0-4c8f-8830-12e174a28461_bmw.png"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\f95bdc2c-0767-42cd-87d0-6656210115ee_camaro.webp",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\f95bdc2c-0767-42cd-87d0-6656210115ee_camaro.webp",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/f95bdc2c-0767-42cd-87d0-6656210115ee_camaro.webp",
       "AssetKind": "All",
@@ -1530,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\f95bdc2c-0767-42cd-87d0-6656210115ee_camaro.webp"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\fb09a1ef-a2ea-4d0e-9d8c-99ae17fa9a07_about-img1-602x429.png",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\fb09a1ef-a2ea-4d0e-9d8c-99ae17fa9a07_about-img1-602x429.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/fb09a1ef-a2ea-4d0e-9d8c-99ae17fa9a07_about-img1-602x429.png",
       "AssetKind": "All",
@@ -1547,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\fb09a1ef-a2ea-4d0e-9d8c-99ae17fa9a07_about-img1-602x429.png"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\fef59442-f6bf-47e7-bf18-cba1f73e0846_Emil 1.jpg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\fef59442-f6bf-47e7-bf18-cba1f73e0846_Emil 1.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/fef59442-f6bf-47e7-bf18-cba1f73e0846_Emil 1.jpg",
       "AssetKind": "All",
@@ -1564,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\fef59442-f6bf-47e7-bf18-cba1f73e0846_Emil 1.jpg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\ff9de4db-8b4d-406d-aced-09852a9b645f_baylar.jpeg",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\ff9de4db-8b4d-406d-aced-09852a9b645f_baylar.jpeg",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/ff9de4db-8b4d-406d-aced-09852a9b645f_baylar.jpeg",
       "AssetKind": "All",
@@ -1581,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\ff9de4db-8b4d-406d-aced-09852a9b645f_baylar.jpeg"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\img\\search-product-icon.png",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\search-product-icon.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/img/search-product-icon.png",
       "AssetKind": "All",
@@ -1598,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\search-product-icon.png"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\js\\custom.js",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\js\\custom.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/js/custom.js",
       "AssetKind": "All",
@@ -1615,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\custom.js"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\js\\jquery-3.4.1.min.js",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\js\\jquery-3.4.1.min.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/js/jquery-3.4.1.min.js",
       "AssetKind": "All",
@@ -1632,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\jquery-3.4.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\js\\main.js",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\js\\main.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/js/main.js",
       "AssetKind": "All",
@@ -1649,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\js\\slick.min.js",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\js\\slick.min.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/js/slick.min.js",
       "AssetKind": "All",
@@ -1666,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\slick.min.js"
     },
     {
-      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\assets\\js\\slider.js",
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\js\\slider.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "assets/js/slider.js",
       "AssetKind": "All",

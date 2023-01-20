@@ -32,6 +32,7 @@ namespace DataAccess.Contexts
         public DbSet<BasketProduct> BasketProducts { get; set; }
         public DbSet<Tag> Tags { get; set; }
         public DbSet<ProductTag> ProductTags { get; set; }
+        public DbSet<ContactUs> ContactUs { get; set; }
 
     }
 }

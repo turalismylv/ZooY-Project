@@ -74,7 +74,7 @@ namespace DataAccess.Repositories.Concrete
         public async Task<Product> GetWithTagsAsync(int id)
         {
             return await _context.Products
-                .Include(c => c.CategoriesTags)
+                .Include(c => c.ProductTags)
                 .ThenInclude(ct => ct.Tag)
                 .FirstOrDefaultAsync(c => c.Id == id);
         }

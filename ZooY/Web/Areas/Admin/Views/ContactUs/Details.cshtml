@@ -1,0 +1,32 @@
+﻿
+@using Web.Areas.Admin.ViewModels.ContactUs
+@model ContactUsDetailsVM
+
+
+<h3>Id:</h3>
+<p>@Model.ContactUs.Id</p>
+
+<h3>FullName:</h3>
+<p>@Model.ContactUs.FullName</p>
+
+
+<h3>Email:</h3>
+<p>@Model.ContactUs.Email</p>
+
+<h3>Subject:</h3>
+<p>@Model.ContactUs.Subject</p>
+
+<h3>Status:</h3>
+<p>@Model.ContactUs.Status</p>
+
+<h3>Message:</h3>
+<p>@Model.ContactUs.Message</p>
+
+<h3>CreatedAt:</h3>
+<p>@Model.ContactUs.CreatedAt</p>
+
+<h3>ModifiedAt:</h3>
+<p>@Model.ContactUs.ModifiedAt</p>
+
+
+ <a class="btn btn-primary m-2" asp-action="index" asp-controller="contactus">Cancel</a>

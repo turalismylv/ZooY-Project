@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yY5vpIHwg6uvw9P7dSo9Ad980FpmTaMWGl5EXoOm1GklIW3BHrwUqvI/kB9Xi4IXLCXz9FrGxNMGC6n/RIctxQ==",
+  "dgSpecHash": "sgM3uAO/q2f9yBpIS4WqMoK/CPIJAduYnxAgHqu0rKWHwl8uuF8Kve3IvMJ1Qx7BigM1b5aPnS0RSBqeGi0BMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\BackEndZooY\\ZooY_Project\\ZooY\\Web\\Web.csproj",
+  "projectFilePath": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Web\\Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tursl\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\tursl\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

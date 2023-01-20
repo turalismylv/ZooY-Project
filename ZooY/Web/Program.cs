@@ -53,6 +53,7 @@ builder.Services.AddScoped<IBasketRepository, BasketRepository>();
 builder.Services.AddScoped<IBasketProductRepository, BasketProductRepository>();
 builder.Services.AddScoped<ITagRepository, TagRepository>();
 builder.Services.AddScoped<IProductTagRepository, ProductTagRepository>();
+builder.Services.AddScoped<IContactUsRepository, ContactUsRepository>();
 
 
 #endregion
@@ -79,6 +80,7 @@ builder.Services.AddScoped<AdminAbstractService.IBlogService, AdminConcreteServi
 builder.Services.AddScoped<AdminAbstractService.IContactInfoService, AdminConcreteService.ContactInfoService>();
 builder.Services.AddScoped<AdminAbstractService.IProductService, AdminConcreteService.ProductService>();
 builder.Services.AddScoped<AdminAbstractService.ITagService, AdminConcreteService.TagService>();
+builder.Services.AddScoped<AdminAbstractService.IContactUsService, AdminConcreteService.ContactUsService>();
 
 
 

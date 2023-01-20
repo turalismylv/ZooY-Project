@@ -49,6 +49,25 @@
 
     })
 
+
+    //$(document).on('click', '.btnmesagge', function () {
+
+    //    console.log("salam")
+
+    //    $.ajax({
+    //        method: "POST",
+    //        url: "/contact/create",
+         
+    //        success: function (result) {
+             
+    //        },
+    //        error: function (e) {
+    //            console.log(e)
+    //        }
+    //    })
+
+    //})
+
     $(document).on('click', '#tag', function () {
 
         var id = $(this).data('id');

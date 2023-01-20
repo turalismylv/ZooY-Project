@@ -10,6 +10,6 @@ namespace Core.Entities
     public class Tag : BaseEntity
     {
         public string Title { get; set; }
-        public ICollection<ProductTag> CategoriesTags { get; set; }
+        public ICollection<ProductTag> ProductTags { get; set; }
     }
 }

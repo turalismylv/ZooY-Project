@@ -200,6 +200,44 @@ namespace DataAccess.Migrations
                     b.ToTable("ContactInfo");
                 });
 
+            modelBuilder.Entity("Core.Entities.ContactUs", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ModifiedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Subject")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ContactUs");
+                });
+
             modelBuilder.Entity("Core.Entities.Find", b =>
                 {
                     b.Property<int>("Id")
@@ -432,7 +470,7 @@ namespace DataAccess.Migrations
 
                     b.HasIndex("TagId");
 
-                    b.ToTable("CategoriesTags");
+                    b.ToTable("ProductTags");
                 });
 
             modelBuilder.Entity("Core.Entities.Tag", b =>
@@ -778,13 +816,13 @@ namespace DataAccess.Migrations
             modelBuilder.Entity("Core.Entities.ProductTag", b =>
                 {
                     b.HasOne("Core.Entities.Product", "Product")
-                        .WithMany("CategoriesTags")
+                        .WithMany("ProductTags")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Core.Entities.Tag", "Tag")
-                        .WithMany("CategoriesTags")
+                        .WithMany("ProductTags")
                         .HasForeignKey("TagId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -857,7 +895,7 @@ namespace DataAccess.Migrations
 
             modelBuilder.Entity("Core.Entities.Product", b =>
                 {
-                    b.Navigation("CategoriesTags");
+                    b.Navigation("ProductTags");
                 });
 
             modelBuilder.Entity("Core.Entities.ProductCategory", b =>
@@ -867,7 +905,7 @@ namespace DataAccess.Migrations
 
             modelBuilder.Entity("Core.Entities.Tag", b =>
                 {
-                    b.Navigation("CategoriesTags");
+                    b.Navigation("ProductTags");
                 });
 
             modelBuilder.Entity("Core.Entities.User", b =>

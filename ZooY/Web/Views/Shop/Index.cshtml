@@ -54,10 +54,12 @@
                         <div class="tags">
                             <h4>BY TAGS</h4>
                             <ul>
-                                <a href="#">2011</a>
-                                <a href="#">2011</a>
-                                <a href="#">2011</a>
-                                <a href="#">2011</a>
+                                @foreach (var tag in Model.Tags)
+                                {
+                                    <a data-id="@tag.Id" id="tag" href="#">@tag.Title</a>
+                                    @*<li data-id="@tag.Id" id="tag"><a href="#"> @tag.Title</a></li>*@
+                                }
+
                             </ul>
                         </div>
                     </div>

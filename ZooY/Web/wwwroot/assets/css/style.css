@@ -9,11 +9,14 @@
     font-size: 15px;
     transition: 0.6s;
 }
+dl, ol, ul{
+    margin-bottom:0;
+}
 
-    .main .tophead .wrappertophead {
-        display: flex;
-        gap: 15px;
-    }
+.main .tophead .wrappertophead {
+    display: flex;
+    gap: 15px;
+}
 
         .main .tophead .wrappertophead .mail {
             text-decoration: none;
@@ -58,7 +61,7 @@
 }
 
 .main .nav {
-    margin-top: 50px;
+    margin-top: 25px;
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -4123,7 +4126,7 @@ header {
 }
 
 .first-sec {
-    padding-top: 200px;
+    padding-top: 160px;
 }
 
 

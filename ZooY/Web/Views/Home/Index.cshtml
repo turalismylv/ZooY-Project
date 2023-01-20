@@ -43,11 +43,11 @@
                     </div>
                     <div class="product-details">
                         <span class="product-catagory">@product.ProductCategory.Title</span>
-                        <h4><a href="">@product.Title</a></h4>
+                        <h4><a class="productt-name" asp-action="details" asp-controller="shop" asp-route-id="@product.Id">@product.Title</a></h4>
                         <div class="product-bottom-details">
                             <div class="product-price">$@product.Price</div>
                             <div class="product-links">
-                                <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                <a style="cursor:pointer" id="addToCart" data-price="@product.Price" data-title="@product.Title" data-photoname="@product.PhotoName" data-id="@product.Id"><i class="fa fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>

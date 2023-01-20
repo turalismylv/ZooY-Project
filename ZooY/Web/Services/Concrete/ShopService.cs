@@ -15,33 +15,21 @@ namespace Web.Services.Concrete
         private readonly IProductRepository _productRepository;
         private readonly IProductCategoryRepository _productCategoryRepository;
         private readonly IBrandRepository _brandRepository;
+        private readonly ITagRepository _tagRepository;
 
         public ShopService(IProductRepository productRepository,
             IActionContextAccessor actionContextAccessor, 
             IProductCategoryRepository productCategoryRepository,
-            IBrandRepository brandRepository)
+            IBrandRepository brandRepository,
+            ITagRepository tagRepository)
         {
             _modelState = actionContextAccessor.ActionContext.ModelState;
             _productRepository = productRepository;
             _productCategoryRepository = productCategoryRepository;
             _brandRepository = brandRepository;
+             _tagRepository = tagRepository;
         }
 
-
-        //public async Task<ShopIndexVM> GetAllAsync(ShopIndexVM model)
-        //{
-
-        //    var products = FilterProducts(model);
-
-        //    model = new ShopIndexVM
-        //    {
-        //        ProductCategories = await _productCategoryRepository.GetAllCategoryAsync(),
-        //        Brands = await _brandRepository.GetAllBrandAsync(),
-        //        Products = await products.ToListAsync()
-        //    };
-        //    return model;
-
-        //}
 
         public async Task<ShopIndexVM> GetAllAsync(ShopIndexVM model)
         {
@@ -60,7 +48,7 @@ namespace Web.Services.Concrete
                 Title = model.Title,
                  ProductCategories = await _productCategoryRepository.GetAllCategoryAsync(),
                  Brands = await _brandRepository.GetAllBrandAsync(),
-
+                 Tags=await _tagRepository.GetAllAsync(),
 
             };
             return model;
@@ -120,12 +108,18 @@ namespace Web.Services.Concrete
             return model;
 
         }
+        public async Task<ShopTagProductIndexVM> TagProductAsync(int id)
+        {
+            var tag = await _tagRepository.GetWithProductsAsync(id);
+            if (tag == null) return null;
 
-        //public IQueryable<Product> FilterProducts(ShopIndexVM model)
-        //{
-        //    var products = _productRepository.FilterByTitle(model.Title);
-        //    return products;
-        //}
+            var model = new ShopTagProductIndexVM
+            {
+                Tag = tag
+            };
+            return model;
+        }
+
 
 
     }

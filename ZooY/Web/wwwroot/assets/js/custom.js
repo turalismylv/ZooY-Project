@@ -49,6 +49,31 @@
 
     })
 
+    $(document).on('click', '#tag', function () {
+
+        var id = $(this).data('id');
+        console.log("salam")
+        $.ajax({
+            method: "GET",
+            url: "/shop/tagproduct",
+            data: {
+                id: id
+
+            },
+            success: function (result) {
+                console.log(result)
+                $('#Tural').empty().append("");
+                $('#Tural').append(result);
+
+            },
+            error: function (e) {
+                console.log(e)
+            }
+        })
+
+    })
+    
+
     $(document).on('click', '#addToCart', function () {
         var id = $(this).data('id');
 

@@ -1,6 +1,7 @@
 ﻿using Core.Constants;
 using Core.Entities;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace DataAccess
 {
     public static class DbInitializer
     {
-        public async static Task SeedAsync(UserManager<User> userManager, RoleManager<IdentityRole> roleManager)
+        public async static Task SeedAsync(UserManager<User> userManager, RoleManager<IdentityRole> roleManager, IConfiguration _configuration)
         {
 
             foreach (var role in Enum.GetValues(typeof(UserRoles)))
@@ -37,7 +38,7 @@ namespace DataAccess
                     Email = "admin@app.com"
 
                 };
-
+                user.EmailConfirmed = true;
                 var result = await userManager.CreateAsync(user, "admin");
                 if (!result.Succeeded)
                 {

@@ -32,9 +32,15 @@ builder.Services.AddIdentity<User, IdentityRole>(options =>
     options.Password.RequireLowercase = false;
 
     options.User.RequireUniqueEmail = true;
+    options.SignIn.RequireConfirmedEmail = true;
+
+    options.Lockout.MaxFailedAccessAttempts = 3;
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+    options.Lockout.AllowedForNewUsers = true;
 
 })
-    .AddEntityFrameworkStores<AppDbContext>();
+    .AddEntityFrameworkStores<AppDbContext>()
+    .AddDefaultTokenProviders(); 
 
 #region Repositories
 
@@ -67,6 +73,10 @@ builder.Services.AddScoped<IBlogService, BlogService>();
 builder.Services.AddScoped<IContactService, ContactService>();
 builder.Services.AddScoped<IShopService, ShopService>();
 builder.Services.AddScoped<IBasketService, BasketService>();
+builder.Services.AddScoped<IEmailService, EmailService>();
+
+
+
 builder.Services.AddScoped<AdminAbstractService.IAccountService, AdminConcreteService.AccountService>();
 builder.Services.AddScoped<AdminAbstractService.IHomeMainSliderService, AdminConcreteService.HomeMainSliderService>();
 builder.Services.AddScoped<AdminAbstractService.IFindService, AdminConcreteService.FindService>();
@@ -125,7 +135,10 @@ using (var scope = scopeFactory.CreateScope())
 {
     var userManager = scope.ServiceProvider.GetService<UserManager<User>>();
     var roleManager = scope.ServiceProvider.GetService<RoleManager<IdentityRole>>();
-    await DbInitializer.SeedAsync(userManager, roleManager);
+
+    var _configuration = scope.ServiceProvider.GetService<IConfiguration>();
+
+    await DbInitializer.SeedAsync(userManager, roleManager, _configuration);
 }
 
 

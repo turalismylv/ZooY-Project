@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Core\\Core.csproj": {
+    "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\tursl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Core\\obj\\",
+        "outputPath": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tursl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\tursl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tursl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -95,8 +95,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\tursl\\OneDrive\\Desktop\\CODEACADEMY\\ZooY-Project\\ZooY\\Core\\Core.csproj"
+              "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Core\\Core.csproj"
               }
             }
           }
@@ -118,6 +118,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.9, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             }
           },
           "imports": [

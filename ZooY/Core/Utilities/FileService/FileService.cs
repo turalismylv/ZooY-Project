@@ -55,5 +55,16 @@ namespace Core.Utilities.FileService
             }
             return true;
         }
+
+
+        public string ReadFile(string path, string template)
+        {
+
+            using (StreamReader reader = new StreamReader(path))
+            {
+                template = reader.ReadToEnd();
+            }
+            return template;
+        }
     }
 }

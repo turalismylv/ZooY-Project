@@ -14,5 +14,7 @@ namespace Core.Utilities.FileService
         void Delete(string fileName);
         bool IsImage(IFormFile file);
         bool CheckSize(IFormFile file, int size);
+
+        string ReadFile(string path, string template);
     }
 }

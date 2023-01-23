@@ -9,5 +9,9 @@ namespace Web.Services.Abstract
         Task<bool> LoginAsync(AccountLoginVM model);
 
         Task Logout();
+
+        Task<bool> ConfirmEmailAsync(string userId, string token);
+
+        Task<bool> ConfirmationTokenEmailAsync(string link, AccountRegisterVM model);
     }
 }

@@ -13,5 +13,9 @@ namespace Web.Services.Abstract
         Task<bool> ConfirmEmailAsync(string userId, string token);
 
         Task<bool> ConfirmationTokenEmailAsync(string link, AccountRegisterVM model);
+
+        Task<bool> ResetPasswordTokenAsync(string link, ForgotPasswordVM model);
+        Task<bool> ResetPasswordAsync(ResetPasswordVM resetPasswordVM);
+        Task<bool> ForgotPasswordFindUserAsync(ForgotPasswordVM forgotPasswordVM);
     }
 }

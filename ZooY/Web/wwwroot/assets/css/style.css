@@ -313,6 +313,7 @@ dl, ol, ul{
             margin-bottom: 18px;
             line-height: 36px;
             letter-spacing: 2px;
+            text-align:center;
         }
 
         .p-categoryrow .p-category-div .view-collect {
@@ -767,6 +768,7 @@ ol, ul {
         font-weight: 700;
         margin-bottom: 25px;
         text-transform: uppercase;
+        text-align:center;
     }
 
     .welcome-div .o {

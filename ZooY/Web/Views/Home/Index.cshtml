@@ -139,7 +139,7 @@
         @foreach (var blog in Model.Blogs)
         {
             <div class="p-category-div  lastnew-div">
-                <div><img class="last-new-img" style="width: 400px; height:287px" src="~/assets/img/@blog.MainPhotoName" alt=""></div>
+                <div><img class="last-new-img" style="width: 390px; height:287px" src="~/assets/img/@blog.MainPhotoName" alt=""></div>
                 <div class="info-last">
                     <div class="post-date">@blog.Time.ToString("dd.MM.yyyy")</div>
                     <h4><a class="blog-tit" asp-action="details" asp-controller="blog" asp-route-id="@blog.Id">@blog.Title</a></h4>

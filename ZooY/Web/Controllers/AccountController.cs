@@ -40,19 +40,6 @@ namespace Web.Controllers
         }
 
 
-        [HttpGet]
-        public async Task<IActionResult> VerifyEmail()
-        {
-            return View();
-        }
-
-        public async Task<IActionResult> ConfirmEmail(string userId, string token)
-        {
-            var isConfirmed = await _accountService.ConfirmEmailAsync(userId, token);
-            if (isConfirmed) return RedirectToAction("index", "home");
-            return BadRequest();
-        }
-
 
         [OnlyAnonymous]
 
@@ -90,5 +77,59 @@ namespace Web.Controllers
 
         }
 
+
+        [HttpGet]
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+
+
+        [HttpPost]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordVM forgotPasswordVM)
+        {
+            var userIsExist = await _accountService.ForgotPasswordFindUserAsync(forgotPasswordVM);
+            if (!userIsExist) return View(forgotPasswordVM);
+            string link = Url.Action(nameof(ResetPassword), "Account", new { userId = forgotPasswordVM.Id, forgotPasswordVM.Token },
+             Request.Scheme, Request.Host.ToString());
+            await _accountService.ResetPasswordTokenAsync(link, forgotPasswordVM);
+
+            return RedirectToAction(nameof(VerifyEmail));
+        }
+
+
+
+        [HttpGet]
+        public async Task<IActionResult> VerifyEmail()
+        {
+            return View();
+        }
+
+    
+
+
+        [HttpGet]
+        public IActionResult ResetPassword(string userId, string token) => View(new ResetPasswordVM { Token = token, Id = userId });
+
+
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(ResetPasswordVM resetPasswordVM)
+        {
+            var isSucceded = await _accountService.ResetPasswordAsync(resetPasswordVM);
+            if (isSucceded) return RedirectToAction(nameof(Login));
+            return View(resetPasswordVM);
+
+        }
+
+
+
+
+        public async Task<IActionResult> ConfirmEmail(string userId, string token)
+        {
+            var isConfirmed = await _accountService.ConfirmEmailAsync(userId, token);
+            if (isConfirmed) return RedirectToAction("index", "home");
+            return BadRequest();
+        }
     }
 }

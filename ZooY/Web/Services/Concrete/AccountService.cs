@@ -98,13 +98,11 @@ namespace Web.Services.Concrete
             return true;
         }
 
-
         public async Task Logout()
         {
             await _signInManager.SignOutAsync();
             
         }
-
 
         public async Task<bool> ConfirmEmailAsync(string userId, string token)
         {
@@ -138,5 +136,75 @@ namespace Web.Services.Concrete
             _emailService.Send(user.Email, subject, body);
             return true;
         }
+
+        public async Task<bool> ResetPasswordTokenAsync(string link, ForgotPasswordVM model)
+        {
+            var user = await _userManager.FindByEmailAsync(model.Email);
+
+            string path = "wwwroot/templates/resetpasswordverify.html";
+            string body = string.Empty;
+            string subject = "Verify Password Reset";
+
+            body = _fileService.ReadFile(path, body);
+
+            body = body.Replace("{{link}}", link);
+
+            body = body.Replace("{{username}}", user.UserName);
+
+            _emailService.Send(user.Email, subject, body);
+            return true;
+        }
+        public async Task<bool> ResetPasswordAsync(ResetPasswordVM resetPasswordVM)
+        {
+            if (!_modelState.IsValid)
+            {
+                _modelState.AddModelError("Password", "Password is Required");
+                return false;
+            }
+
+
+            var existUser = await _userManager.FindByIdAsync(resetPasswordVM.Id);
+            if (existUser == null)
+            {
+                _modelState.AddModelError("Password", "User cannot found");
+                return false;
+            }
+
+            if (await _userManager.CheckPasswordAsync(existUser, resetPasswordVM.Password))
+            {
+                _modelState.AddModelError("Password", "New password cant be same with old password");
+                return false;
+            }
+            await _userManager.ResetPasswordAsync(existUser, resetPasswordVM.Token, resetPasswordVM.Password);
+            return true;
+        }
+
+        public async Task<bool> ForgotPasswordFindUserAsync(ForgotPasswordVM forgotPasswordVM)
+        {
+            if (!_modelState.IsValid) return false;
+
+            var userExist = await _userManager.FindByEmailAsync(forgotPasswordVM.Email);
+            if (userExist == null)
+            {
+                _modelState.AddModelError("Email", "User Not Found");
+                return false;
+            }
+
+            var resetVM = new ResetPasswordVM
+            {
+                Id = userExist.Id,
+            };
+
+
+
+            string token = await _userManager.GeneratePasswordResetTokenAsync(userExist);
+
+            forgotPasswordVM.Token = token;
+            forgotPasswordVM.Id = userExist.Id;
+
+            return true;
+
+        }
+
     }
 }

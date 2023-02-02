@@ -116,7 +116,8 @@ namespace Web.Areas.Admin.Services.Concrete
                 ProductCategoryId = model.CategoryId,
                 BrandId = model.BrandId,
                 Price = model.Price,
-                PhotoName= await _fileService.UploadAsync(model.MainPhoto)
+                HomePageSee = model.HomePageSee,
+                PhotoName = await _fileService.UploadAsync(model.MainPhoto)
 
 
             };
@@ -153,10 +154,12 @@ namespace Web.Areas.Admin.Services.Concrete
                 }).ToList(),
 
                 CategoryId = product.ProductCategoryId,
+                BrandId=product.BrandId,
                 Price = product.Price,
                 Title = product.Title,
                 Description = product.Description,
                 MainPhotoPath = product.PhotoName,
+                HomePageSee=product.HomePageSee,
 
             };
 
@@ -197,6 +200,7 @@ namespace Web.Areas.Admin.Services.Concrete
                 product.Price = model.Price;
                 product.ProductCategoryId = model.CategoryId;
                 product.BrandId = model.BrandId;
+                product.HomePageSee=model.HomePageSee;
 
                 if (model.MainPhoto != null)
                 {

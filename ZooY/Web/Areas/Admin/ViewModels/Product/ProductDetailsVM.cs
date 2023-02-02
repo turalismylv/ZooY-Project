@@ -7,5 +7,8 @@
         public Core.Entities.ProductCategory ProductCategory { get; set; }
         public int BrandId { get; set; }
         public Core.Entities.Brand Brand { get; set; }
+
+        public bool HomePageSee { get; set; }
+
     }
 }

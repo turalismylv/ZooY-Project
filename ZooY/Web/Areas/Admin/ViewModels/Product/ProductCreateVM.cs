@@ -13,5 +13,8 @@ namespace Web.Areas.Admin.ViewModels.Product
 
         public int BrandId { get; set; }
         public List<SelectListItem>? Brands { get; set; }
+
+        public bool HomePageSee { get; set; }
+
     }
 }

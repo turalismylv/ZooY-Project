@@ -35,6 +35,13 @@
             <span asp-validation-for="MainPhoto"></span>
         </div>
 
+         <div class="form-floating mb-3">
+            <span>Home Page See?</span>
+            <label asp-for="HomePageSee">Yes</label>
+            <input type="checkbox" class="form-checkbox" asp-for="HomePageSee">
+            <span asp-validation-for="HomePageSee"></span>
+        </div>
+
         <button type="submit" class="btn btn-success m-2">Create</button>
         <a class="btn btn-primary m-2" asp-action="index" asp-controller="product">Cancel</a>
     </form>

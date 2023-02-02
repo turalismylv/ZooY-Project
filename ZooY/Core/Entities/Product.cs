@@ -20,5 +20,7 @@ namespace Core.Entities
         public Brand Brand { get; set; }
         public ICollection<ProductTag> ProductTags { get; set; }
 
+        public bool HomePageSee { get; set; }
+
     }
 }

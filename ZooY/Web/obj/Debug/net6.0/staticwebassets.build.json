@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Izq3pue0MqQZGvm9mrbb3k6Y1jBOusWJ2HCGb5MuTlU=",
+  "Hash": "uEP+AY9cXyvcY0owgNfQeB3xmSyyJFvqXhVzC7Udl6w=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -731,6 +731,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\2321bd00-c5b9-4605-b148-136d1978f5e4_audi.jpg"
     },
     {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\232d9643-5bfe-4275-b13d-bff2840cb0d8_7f19e9f8ecb8afdb19dbd33f0e7f7be9.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/232d9643-5bfe-4275-b13d-bff2840cb0d8_7f19e9f8ecb8afdb19dbd33f0e7f7be9.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\232d9643-5bfe-4275-b13d-bff2840cb0d8_7f19e9f8ecb8afdb19dbd33f0e7f7be9.jpg"
+    },
+    {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\2433e607-a0c4-496b-a5f5-cf1d69474f89_signature.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
@@ -899,6 +916,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\3ea4ef91-7447-468e-9d7d-d832522dd863_signature.png"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\442974d8-f0f3-4e8a-9085-7c39367e83ad_thumb.jpeg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/442974d8-f0f3-4e8a-9085-7c39367e83ad_thumb.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\442974d8-f0f3-4e8a-9085-7c39367e83ad_thumb.jpeg"
     },
     {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\4530c8db-613f-44ab-8aa9-9abb178fc9fc_toyotabrand.jpg",
@@ -1137,6 +1171,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\6f12049c-9dd7-4746-8ce2-7d800d3be272_priusqezza.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\720baca3-a64c-4421-869a-78fff518b928_filterdi totyatadi.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/720baca3-a64c-4421-869a-78fff518b928_filterdi totyatadi.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\720baca3-a64c-4421-869a-78fff518b928_filterdi totyatadi.jpg"
     },
     {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\76bb8dcb-ec55-40f3-a01f-e47e8de0fb77_Emil 3.jpg",
@@ -1411,6 +1462,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\92c67823-21e9-4277-ab1d-26cf3892c381_priusuqeza.jpg"
     },
     {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\930b81bc-5476-4368-bdf1-043a6f6a009e_body bmw kit.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/930b81bc-5476-4368-bdf1-043a6f6a009e_body bmw kit.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\930b81bc-5476-4368-bdf1-043a6f6a009e_body bmw kit.jpg"
+    },
+    {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\964c7d30-d97b-4244-964a-e4c599bad706_range main.jpg",
       "SourceId": "Web",
       "SourceType": "Discovered",
@@ -1460,6 +1528,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\9903c649-7ea1-41d6-9482-2bed46246478_toyotabrand.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\996d8fbf-4c34-41d5-a7e6-c5af72e6fadd_Rulavoy BMW.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/996d8fbf-4c34-41d5-a7e6-c5af72e6fadd_Rulavoy BMW.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\996d8fbf-4c34-41d5-a7e6-c5af72e6fadd_Rulavoy BMW.jpg"
     },
     {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\9b86bd24-e127-48c7-9112-3ef6c83f6028_performance-parts.jpg",
@@ -1698,6 +1783,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\c6b55e7a-46d8-44cf-b654-47ec8ff159b7_baylar.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\cd902f63-08fd-4d5a-b9e2-0aedfb583365_frontbreake disk.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/cd902f63-08fd-4d5a-b9e2-0aedfb583365_frontbreake disk.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\cd902f63-08fd-4d5a-b9e2-0aedfb583365_frontbreake disk.jpg"
     },
     {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\ce5df306-5f8f-4394-bee1-eed0f311507b_blog-img02-769x376.jpg",

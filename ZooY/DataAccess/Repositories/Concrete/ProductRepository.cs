@@ -78,6 +78,12 @@ namespace DataAccess.Repositories.Concrete
                 .ThenInclude(ct => ct.Tag)
                 .FirstOrDefaultAsync(c => c.Id == id);
         }
+
+
+        public async Task<List<Product>> GetHomeProductAsync()
+        {
+            return await _context.Products.Where(d => d.HomePageSee).ToListAsync();
+        }
     }
    
 }

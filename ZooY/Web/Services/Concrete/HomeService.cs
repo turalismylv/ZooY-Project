@@ -49,7 +49,7 @@ namespace Web.Services.Concrete
                 Brands=await _brandRepository.GetAllAsync(),
                 ProductCategories=await _productCategoryRepository.GetAllAsync(),
                 Blogs=await _blogRepository.GetOrderByAsync(),
-                Products=await _productRepository.GetAllAsync(),
+                Products=await _productRepository.GetHomeProductAsync(),
             };
             return model;
 

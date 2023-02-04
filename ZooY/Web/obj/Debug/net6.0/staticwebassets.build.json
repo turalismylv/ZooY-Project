@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uEP+AY9cXyvcY0owgNfQeB3xmSyyJFvqXhVzC7Udl6w=",
+  "Hash": "wH21BA4TtTYLmMbSVaPTlUoofXcKYOXBmYEnCi63w4g=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -695,6 +695,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\15e77fc3-116f-4fd2-a02f-313692e6d20b_6f64684f40a84f46cf5bb9372cc1a1e4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\2023958f-8632-413a-9eb7-edddec2c4c2b_dumanni.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/2023958f-8632-413a-9eb7-edddec2c4c2b_dumanni.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\2023958f-8632-413a-9eb7-edddec2c4c2b_dumanni.jpg"
     },
     {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\22c3f0f5-f8ec-49a1-bdd1-b01c76c90d69_main slider.jpg",
@@ -2004,6 +2021,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\e6bab0a7-bedd-46ee-85aa-8470a20e3b80_mercedes-benz-car-logo-3d-model-obj-mtl-fbx-ztl.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\e852491c-4708-40f6-b26b-202f955fa3e7_benz acari.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/img/e852491c-4708-40f6-b26b-202f955fa3e7_benz acari.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\e852491c-4708-40f6-b26b-202f955fa3e7_benz acari.jpg"
     },
     {
       "Identity": "C:\\Users\\tursl\\OneDrive\\Desktop\\ZooY-Project\\ZooY\\Web\\wwwroot\\assets\\img\\e89547db-ccac-4ae1-9b30-5efc855b1721_lighting.jpg",
